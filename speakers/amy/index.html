@@ -1,0 +1,14 @@
+<p>
+  "Programming is like building structures out of Lego, but I never run out of Lego bricks, and if there's no brick with the exact shape that I need, I can make that brick."
+  <br/>
+  &nbsp;&nbsp;&nbsp;- Sam Stokes, "What Programming is Like"
+</p>
+<p>
+  Most of us got into programming out of love for building neat stuff, but there's a satisfaction to creating physical products with your hands that programming can't satisfy. Programming is like building structures out of Lego, but you don't get to play with a toy spaceship at the end. Out of nostalgic desire to return to the days of our misspent youth, at the last Airbnb hackathon a group of engineers worked on a project that combines the two: a web application for building with Lego.
+</p>
+<p>
+  Our web app helps you convert images to large-scale Lego murals. We do this by first converting the image to the color palette of Lego bricks available for bulk purchase, then converting from pixel space to Lego space (brick unit dimensions are non-uniform!), and finally chunking the blocks of color into larger sections of Lego bricks. The result is a shopping list of bricks in the colors and sizes you'll need, line-by-line instructions for building the Lego mural, and a preview of what it'll look like when complete. We do this entirely in-browser so that the app can be hosted as a static site, with the help of Browserify, node-color-diff, and Web Workers.
+</p>
+<p>
+  We'll talk about the prototypes that we continuously improved as we used the program ourselves to build a Lego mural, performance optimizations we made to avoid crashing your browser, long-dead dithering techniques for more accurate color output, and about debugging rows of Lego when we found that we'd missed a single brick in the middle of a hundred-long line turns out off by one errors aren't just made on computers!
+</p>
