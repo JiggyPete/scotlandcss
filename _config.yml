@@ -1,0 +1,6 @@
+encoding: UTF-8
+assets:
+  css_compressor: sass
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+permalink: pretty
+purchasetickets: false

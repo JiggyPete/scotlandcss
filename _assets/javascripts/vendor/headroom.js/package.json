@@ -1,0 +1,46 @@
+{
+  "name": "headroom.js",
+  "version": "0.7.0",
+  "description": "Give your page some headroom. Hide your header until you need it",
+  "main": "dist/headroom.js",
+  "scripts": {
+    "test": "grunt test --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WickyNilliams/headroom.js.git"
+  },
+  "keywords": [
+    "header",
+    "fixed",
+    "scroll",
+    "menu"
+  ],
+  "author": {
+    "name": "Nick Williams"
+  },
+  "homepage": "http://wicky.nillia.ms/headroom.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WickyNilliams/headroom.js/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-karma": "~0.6.2",
+    "grunt-rigger": "~0.5.0",
+    "karma": "~0.10.8",
+    "karma-firefox-launcher": "~0.1.2",
+    "karma-opera-launcher": "~0.1.0",
+    "karma-safari-launcher": "~0.1.1"
+  },
+  "gitHead": "3282c23bc69b14f21bfbaf66704fa37b58e3241d",
+  "readme": "# [Headroom.js](http://wicky.nillia.ms/headroom.js)\n\n**Give your pages some headroom. Hide your header until you need it.**\n\n## What's it all about?\n\nHeadroom.js is a lightweight, high-performance JS widget (with no dependencies!) that allows you to react to the user's scroll. The header on [this site](http://wicky.nillia.ms/headroom.js) is a living example, it slides out of view when scrolling down and slides back in when scrolling up.\n\n### Why use it?\n\nFixed headers are a popular approach for keeping the primary navigation in close proximity to the user. This can reduce the effort required for a user to quickly navigate a site, but they are not without problems…\n\nLarge screens are usually landscape-oriented, meaning less vertical than horizontal space. A fixed header can therefore occupy a significant portion of the content area. Small screens are typically used in a portrait orientation. Whilst this results in more vertical space, because of the overall height of the screen a meaningfully-sized header can still be quite imposing.\n\nHeadroom.js allows you to bring elements into view when appropriate, and give focus to your content the rest of the time.\n\n### How does it work?\n\nAt it's most basic headroom.js simply adds and removes CSS classes from an element in response to a scroll event. This means **you must supply your own CSS styles separately**. The classes that are used in headroom.js that are added and removed are:\n\n```html\n<!-- initially -->\n<header class=\"headroom\">\n\n<!-- scrolling down -->\n<header class=\"headroom headroom--unpinned\">\n\n<!-- scrolling up -->\n<header class=\"headroom headroom--pinned\">\n```\n\nRelying on CSS classes affords headroom.js incredible flexibility. The choice of what to do when scrolling up or down is now entirely yours - anything you can do with CSS you can do in response to the user's scroll.\n\n## Usage\n\nUsing headroom.js is really simple. It has a pure JS API, plus an optional jQuery/Zepto plugin and AngularJS directive.\n\n### Install with bower\n\n```bash\nbower install headroom.js --save\n```\n\n### Using Headroom.js with a CDN\n\nCDN provided by [cdnjs](https://cdnjs.com/libraries/headroom)\n```\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/angular.headroom.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/angular.headroom.min.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/jQuery.headroom.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/jQuery.headroom.min.js\"></script>\n```\n\nCDN provided by [jsDelivr CDN](http://www.jsdelivr.com/#!headroomjs)\n```\n<script src=\"//cdn.jsdelivr.net/headroomjs/0.7.0/headroom.min.js\"></script>\n<script src=\"//cdn.jsdelivr.net/headroomjs/0.7.0/angular.headroom.min.js\"></script>\n<script src=\"//cdn.jsdelivr.net/headroomjs/0.7.0/jQuery.headroom.min.js\"></script>\n```\n\n### With pure JS\n\nInclude the `headroom.js` script in your page, and then:\n\n```js\n// grab an element\nvar myElement = document.querySelector(\"header\");\n// construct an instance of Headroom, passing the element\nvar headroom  = new Headroom(myElement);\n// initialise\nheadroom.init();\n```\n\n### With jQuery/Zepto\n\nInclude the `headroom.js` and `jQuery.headroom.js` scripts in your page, and then:\n\n```js\n// simple as this!\n// NOTE: init() is implicitly called with the plugin\n$(\"header\").headroom();\n```\n\nThe plugin also offers a data-* API if you prefer a declarative approach.\n\n```html\n<!-- selects $(\"[data-headroom]\") -->\n<header data-headroom>\n```\n\nNote: Zepto's additional [data module](https://github.com/madrobby/zepto#zepto-modules) is required for compatibility.\n\n### With AngularJS\n\nInclude the `headroom.js` and `angular.headroom.js` scripts in your page, and include the Headroom module\n```javascript\nangular.module('app', [\n// your requires\n'headroom'\n]);\n```\n\nAnd then use the directive in your markup:\n\n```html\n<header headroom></header>\n<!-- or -->\n<headroom></headroom>\n<!-- or with options -->\n<headroom tolerance='0' offset='0' scroller=\".app-view\" classes=\"{pinned:'headroom--pinned',unpinned:'headroom--unpinned',initial:'headroom'}\"></headroom>\n```\n\nNote: in AngularJS, you cannot pass a DOM element as a directive attribute. Instead, you have to provide a selector that can be passed to [angular.element](http://docs.angularjs.org/api/ng/function/angular.element). If you use default AngularJS jQLite selector engine, [here are the compliant selectors](https://code.google.com/p/jqlite/wiki/UsingJQLite). \n\n## Options\n\nHeadroom.js can also accept an options object to alter the way it behaves. You can see the default options by inspecting `Headroom.options`. The structure of an options object is as follows:\n\n```js\n{\n    // vertical offset in px before element is first unpinned\n    offset : 0,\n    // scroll tolerance in px before state changes\n    tolerance : 0,\n    // or scroll tolerance per direction\n    tolerance : {\n        down : 0,\n        up : 0\n    },\n    // css classes to apply\n    classes : {\n        // when element is initialised\n        initial : \"headroom\",\n        // when scrolling up\n        pinned : \"headroom--pinned\",\n        // when scrolling down\n        unpinned : \"headroom--unpinned\",\n        // when above offset\n        top : \"headroom--top\",\n        // when below offset\n        notTop : \"headroom--not-top\"\n    },\n    // callback when pinned, `this` is headroom object\n    onPin : function() {},\n    // callback when unpinned, `this` is headroom object\n    onUnpin : function() {},\n    // callback when above offset, `this` is headroom object\n    onTop : function() {},\n    // callback when below offset, `this` is headroom object\n    onNotTop : function() {}\n}\n```\n\n## Examples\n\nHead over to the [headroom.js playroom](http://wicky.nillia.ms/headroom.js/playroom/) if you want see some example usages. There you can tweak all of headroom's options and apply different CSS effects in an interactive demo.\n\n## Browser support\n\nHeadroom.js is dependent on the following browser APIs:\n\n* [requestAnimationFrame](http://caniuse.com/#feat=requestanimationframe)\n* [classList](http://caniuse.com/#feat=classlist)\n* [Function.prototype.bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Browser_compatibility)\n\nAll of these APIs are capable of being polyfilled, so headroom.js can work with less-capable browsers if desired. Check the linked resources above to determine if you must polyfill to achieve your desired level of browser support.\n\n## Contributions & Issues\n\nContributions are welcome. Please clearly explain the purpose of the PR and follow the current style.\n\nIssues can be resolved quickest if they are descriptive and include both a reduced test case and a set of steps to reproduce.\n\n## License\n\nLicensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).\n",
+  "readmeFilename": "README.md",
+  "_id": "headroom.js@0.7.0",
+  "_shasum": "1f3133de4f3bf125bec00218dc5c650446037c74",
+  "_from": "git://github.com/WickyNilliams/headroom.js.git",
+  "_resolved": "git://github.com/WickyNilliams/headroom.js.git#3282c23bc69b14f21bfbaf66704fa37b58e3241d"
+}

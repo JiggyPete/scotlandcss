@@ -1,0 +1,815 @@
+//= require vendor/normalize
+//= require_tree .
+
+body
+  overflow-x: hidden
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+  font-size: 16px
+
+.text-muted
+  color: #777777
+
+.text-primary
+  color: #1f8ab6
+
+.text-2
+  color: #2fb0d5
+
+.text-3
+  color: #085987
+
+.text-4
+  color: #c55a02
+
+img
+  max-width: 100%
+  height: auto
+
+p
+  font-size: 1em
+  line-height: 1.75
+  &.large
+    font-size: 1.5em
+
+a
+  outline: none
+  &:hover, &:focus, &:active, &.active
+    outline: none
+  color: #1f8ab6
+  &:hover, &:focus, &:active, &.active
+    color: #18698a
+
+h1, h2, h3, h4, h5, h6
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+  text-transform: uppercase
+  font-weight: 300
+
+.img-centered
+  margin: 0 auto
+
+.bg-light-gray
+  background-color: #f7f7f7
+
+.bg-darkest-gray
+  background-color: #222222
+
+.btn, tito-button button
+  position: relative
+
+.btn .badge
+  position: absolute
+  border: 1px solid
+  top: -10px
+  right: -10px
+
+.ticket-now-fix .badge
+  right: -9px
+
+.btn-primary
+  color: white
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+  text-transform: uppercase
+  font-weight: 700
+  &:hover, &:focus, &:active, &.active
+    color: white
+    background-color: #18698a
+    border-color: #166282
+
+.open .dropdown-toggle .btn-primary
+  color: white
+  background-color: #18698a
+  border-color: #166282
+
+.btn-primary
+  &:active, &.active
+    background-image: none
+
+.open .dropdown-toggle .btn-primary
+  background-image: none
+
+.btn-primary
+  &.disabled, &[disabled]
+    background-color: #1f8ab6
+    border-color: #1f8ab6
+
+fieldset[disabled] .btn-primary
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+
+.btn-primary
+  &.disabled:hover, &[disabled]:hover
+    background-color: #1f8ab6
+    border-color: #1f8ab6
+
+fieldset[disabled] .btn-primary:hover
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+
+.btn-primary
+  &.disabled:focus, &[disabled]:focus
+    background-color: #1f8ab6
+    border-color: #1f8ab6
+
+fieldset[disabled] .btn-primary:focus
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+
+.btn-primary
+  &.disabled:active, &[disabled]:active
+    background-color: #1f8ab6
+    border-color: #1f8ab6
+
+fieldset[disabled] .btn-primary:active
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+
+.btn-primary
+  &.disabled.active, &[disabled].active
+    background-color: #1f8ab6
+    border-color: #1f8ab6
+
+fieldset[disabled] .btn-primary.active
+  background-color: #1f8ab6
+  border-color: #1f8ab6
+
+.btn-primary .badge
+  color: #1f8ab6
+  background-color: white
+
+.btn-xl, tito-button button
+  color: white
+  background-color: #085987
+  border-color: #085987
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+  text-transform: uppercase
+  font-weight: 700
+  border-radius: 3px
+  font-size: 1.1em
+  padding: 20px 20px
+
+.btn-xl
+  &:hover, &:focus, &:active, &.active
+    color: white
+    background-color: #053957
+    border-color: #05334d
+
+.open .dropdown-toggle .btn-xl
+  color: white
+  background-color: #053957
+  border-color: #05334d
+
+.btn-xl
+  &:active, &.active
+    background-image: none
+
+.open .dropdown-toggle .btn-xl
+  background-image: none
+
+.btn-xl
+  &.disabled, &[disabled]
+    background-color: #085987
+    border-color: #085987
+
+fieldset[disabled] .btn-xl
+  background-color: #085987
+  border-color: #085987
+
+.btn-xl
+  &.disabled:hover, &[disabled]:hover
+    background-color: #085987
+    border-color: #085987
+
+fieldset[disabled] .btn-xl:hover
+  background-color: #085987
+  border-color: #085987
+
+.btn-xl
+  &.disabled:focus, &[disabled]:focus
+    background-color: #085987
+    border-color: #085987
+
+fieldset[disabled] .btn-xl:focus
+  background-color: #085987
+  border-color: #085987
+
+.btn-xl
+  &.disabled:active, &[disabled]:active
+    background-color: #085987
+    border-color: #085987
+
+fieldset[disabled] .btn-xl:active
+  background-color: #085987
+  border-color: #085987
+
+.btn-xl
+  &.disabled.active, &[disabled].active
+    background-color: #085987
+    border-color: #085987
+
+fieldset[disabled] .btn-xl.active
+  background-color: #085987
+  border-color: #085987
+
+.btn-xl .badge
+  color: #085987
+  background-color: white
+
+.btn-wide
+  padding: 20px 40px
+
+.headroom
+  transition: transform 200ms linear
+
+.headroom--pinned
+  transform: translateY(0%)
+
+.headroom--unpinned
+  transform: translateY(-100%)
+
+.headroom--not-top .navbar-brand
+  opacity: 1
+
+.navbar-padder .fa-wrapper
+  padding-top: 11px
+  padding-bottom: 0
+
+.navbar-default
+  border-color: transparent
+  background-color: #222222
+  .navbar-brand
+    padding-top: 0
+    padding-bottom: 0
+    transition: all 150ms linear
+    opacity: 0
+    &:hover, &:focus, &:active, &.active
+      color: #18698a
+  &.navbar-bg
+    background-color: #222222
+    .navbar-brand
+      opacity: 1
+  .navbar-collapse
+    border-color: rgba(255, 255, 255, 0.02)
+  .navbar-toggle
+    background-color: #1CCCFF
+    border-color: #1CCCFF
+    .icon-bar
+      background-color: #222222
+    &:hover, &:focus
+      background-color: #1CCCFF
+  .nav li a
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+    text-transform: uppercase
+    font-weight: 700
+    font-size: 0.9em
+    color: #1CCCFF
+    letter-spacing: 0.03em
+    &:hover, &:focus
+      color: #03b3FF
+      outline: none
+  .navbar-nav > .active > a
+    border-radius: 0
+    color: white
+    background-color: #1f8ab6
+    &:hover, &:focus
+      color: white
+      background-color: #18698a
+
+@media (min-width: 768px) and (max-width: 991px)
+  .navbar-default .nav
+    width: 745px
+
+@media (max-width: 768px)
+  #bs-example-navbar-collapse-1
+    background-color: #333333
+    border-color: #2d2d2d
+    box-shadow: none
+    padding-left: 1.2em
+
+.navbar-brand img
+  width: 34px
+  height: 34px
+  margin-top: 8px
+
+.ticket-info
+  margin-bottom: 60px
+  p
+    min-height: 8em
+
+tito-button button
+  border: none
+  background-color: inherit
+  padding: 0 20px
+
+.content-body
+  .track
+    text-align: center
+  .speaker
+    color: inherit
+    text-decoration: none !important
+    height: 220px
+    display: flex
+    align-items: center
+    padding-right: 10px
+    cursor: pointer
+    text-align: left
+    &:hover:not(.no-abstract) img
+      border: 7px solid #03b3FF
+    &.no-abstract
+      cursor: default
+    &.long
+      height: 440px
+    img
+      border-radius: 100%
+      min-width: 150px
+      width: 150px
+      height: 150px
+      display: block
+      border: 7px solid white
+      float: left
+      margin: 0 10px
+    p
+      color: #777
+
+.video_list
+  text-align: center
+
+.video
+  height: 315px
+  width: 560px
+
+@media (min-width: 992px)
+  .speaker
+    &.right
+      .info
+        width: 100%
+        text-align: right
+      img
+        order: 2
+    &.half-width
+      width: 50% !important
+
+@media (max-width: 767px)
+  .content-body .speaker
+    margin: 20px 10px
+    padding: 0
+    height: auto
+    img
+      margin: 0 10px 0 0
+      min-width: 75px
+      width: 75px
+      height: 75px
+      border: 3px solid white
+    p
+      margin-left: 5px
+  #home-link
+    margin-bottom: 0.6em
+
+@media (min-width: 768px)
+  .navbar-brand img
+    width: 50px
+    height: 50px
+    margin-top: 0
+  .navbar-default
+    background-color: #333
+    padding: 25px 0
+    border: none
+    padding: 10px 0
+    .navbar-brand
+      font-size: 2em
+    .navbar-nav > .active > a
+      border-radius: 3px
+    .navbar-brand
+      font-size: 1.5em
+
+@media (max-width: 767px)
+  .navbar-default
+    position: fixed
+    z-index: 999
+    width: 100%
+    background-color: #333
+
+.intro-heading
+  font-family: 'Easycore'
+
+
+header
+  background-repeat: none
+  background-attachment: scroll
+  background-position: center center
+  background-size: cover
+  text-align: center
+  color: white
+  .intro-text
+    padding-top: 100px
+    padding-bottom: 50px
+    .intro-lead-in
+      font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+      font-style: italic
+      font-size: 1em
+      margin-bottom: 0px
+    .intro-heading
+      font-size: 6em
+      margin-bottom: 0px
+      letter-spacing: 0.08em
+
+      text-shadow: 0px 0px 100px #222222, 0px 0px 20px #222222
+    .intro-lead-in
+      text-shadow: 0px 0px 100px #222222, 0px 0px 20px #222222
+  .logo
+    color: #1f8ab6
+    font-style: italic
+    text-transform: lowercase
+    display: inline-block
+    margin: 10px 0
+  color: #1CCCFF
+  background-image: url(<%= asset_path 'banner_480@2x.jpg' %>)
+
+@media (max-width: 350px)
+  header
+    .intro-text
+      .intro-heading
+        font-size: 5em
+
+@media (min-width: 786px)
+  header .intro-text
+    padding-top: 300px
+    padding-bottom: 80px
+    .intro-lead-in
+      font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+      font-style: italic
+      font-size: 2.5em
+      line-height: 40px
+      margin-bottom: 15px
+    .intro-heading
+      font-size: 12em
+      line-height: 100px
+      margin-bottom: 75px
+      font-family: 'Easycore'
+      letter-spacing: 0.08em
+
+@media (min-width: 768px)
+  header
+    background-image: url(<%= asset_path 'banner_992.jpg' %>)
+
+@media (min-width: 992px)
+  header
+    background-image: url(<%= asset_path 'banner_1200.jpg' %>)
+    .intro-heading
+      font-size: 15em
+
+@media (min-width: 1200px)
+  header
+    background-image: url(<%= asset_path 'banner_1200@2x.jpg' %>)
+
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx)
+  header
+    background-image: url(<%= asset_path 'banner_480@2x.jpg' %>)
+
+@media (min--moz-device-pixel-ratio: 1.5) and (min-width: 768px), (-o-min-device-pixel-ratio: 3 / 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px), (min-device-pixel-ratio: 1.5) and (min-width: 768px), (min-resolution: 144dpi) and (min-width: 768px), (min-resolution: 1.5dppx) and (min-width: 768px)
+  header
+    background-image: url(<%= asset_path 'banner_768@2x.jpg' %>)
+
+@media (min--moz-device-pixel-ratio: 1.5) and (min-width: 992px), (-o-min-device-pixel-ratio: 3 / 2) and (min-width: 992px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 992px), (min-device-pixel-ratio: 1.5) and (min-width: 992px), (min-resolution: 144dpi) and (min-width: 992px), (min-resolution: 1.5dppx) and (min-width: 992px)
+  header
+    background-image: url(<%= asset_path 'banner_992@2x.jpg' %>)
+
+@media (min--moz-device-pixel-ratio: 1.5) and (min-width: 1200px), (-o-min-device-pixel-ratio: 3 / 2) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1200px), (min-device-pixel-ratio: 1.5) and (min-width: 1200px), (min-resolution: 144dpi) and (min-width: 1200px), (min-resolution: 1.5dppx) and (min-width: 1200px)
+  header
+    background-image: url(<%= asset_path 'banner_1200@2x.jpg' %>)
+
+#sale-banner
+  position: fixed
+  right: 0
+  top: 4.4em
+  background-color: #ce1e46
+  padding: 1.2em
+  z-index: 8000
+  a
+    color: #fff
+    text-decoration: underline
+
+section
+  padding: 100px 0
+  margin-top: -40px
+  &:first-of-type
+    padding: 0
+  h2.section-heading
+    font-size: 8em
+    margin-top: 0
+    font-family: 'Easycore'
+    letter-spacing: 0.03em
+    line-height: 0.75em
+    margin-bottom: 50px
+  h3.section-subheading
+    font-size: 1.1em
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+    text-transform: none
+    font-style: italic
+    font-weight: 400
+    margin-bottom: 40px
+
+@media (max-width: 350px)
+  section
+    h2.section-heading
+      font-size: 6em
+
+
+@media (min-width: 768px)
+  section
+    padding: 50px 0
+    margin-top: -75px
+
+.portfolio-item
+  margin-bottom: 40px
+  right: 0
+
+  .portfolio-link
+    display: block
+    position: relative
+    max-width: 400px
+    margin: 0 auto
+  .portfolio-caption
+    max-width: 400px
+    margin: 0 auto
+    background-color: #f7f7f7
+    text-align: center
+    padding: 25px
+    h4
+      text-transform: none
+      margin: 0
+    p
+      font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+      font-style: italic
+      font-size: 1em
+      margin: 0
+
+.team-member
+  text-align: center
+  margin-bottom: 50px
+  img
+    margin: 0 auto
+    border: 7px solid white
+  h4
+    margin-top: 25px
+    margin-bottom: 0
+    text-transform: none
+  p
+    margin-top: 0
+
+#a11y
+  padding-bottom: 0
+
+#sponsors
+  background-color: white
+  .container > .row .col-md-10
+    margin-bottom: 60px
+    img
+      margin-bottom: 20px
+
+#diversity
+  background-color: white
+  .container > .row .col-md-10
+    margin-bottom: 60px
+    img
+      margin-bottom: 20px
+
+#sissikingkong
+  a
+    display: block
+    width: 375px
+    max-width: 100%
+    position: relative
+    margin: 0 auto
+    &:hover
+      text-decoration: none
+  img
+    max-width: 100%
+    border-radius: 4px
+
+.list-group
+  padding-left: 15px
+
+.rating
+  display: block
+  float: none !important
+
+.list-group-item
+  overflow: hidden
+
+.list-group-link
+  display: block
+
+.list-group-link-addition
+  display: block
+  line-height: 1.769230769
+
+@media (min-width: 400px)
+  .rating
+    float: right !important
+  .list-group-link, .list-group-link-addition
+    float: left
+  .list-group-link
+    margin-right: 5px
+
+@media (min-width: 992px)
+  .rating
+    float: none !important
+  .list-group-link, .list-group-link-addition
+    float: none
+  .with-addition
+    float: left
+
+@media (min-width: 1200px)
+  .list-group-link, .list-group-link-addition
+    float: left
+  .rating
+    float: right !important
+
+.sponsor
+  display: block
+  padding: 0
+  padding-top: 20px
+
+footer
+  padding: 25px 0
+  text-align: center
+  span.copyright
+    line-height: 40px
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+    text-transform: uppercase
+    text-transform: none
+  ul.quicklinks
+    margin-bottom: 0
+    line-height: 40px
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+    text-transform: uppercase
+    text-transform: none
+
+ul.social-buttons
+  margin-top: 10px
+  margin-bottom: 0
+  li a
+    display: block
+    background-color: #222222
+    height: 40px
+    width: 40px
+    border-radius: 100%
+    font-size: 1.3em
+    line-height: 40px
+    color: white
+    outline: none
+    &:hover, &:focus, &:active
+      background-color: #1f8ab6
+
+.btn
+  &:focus, &:active, &.active, &:active:focus
+    outline: none
+
+.portfolio-modal
+  .modal-content
+    border-radius: 0
+    background-clip: border-box
+    box-shadow: none
+    border: none
+    min-height: 100%
+    padding: 100px 0
+    background-color: #222222
+    color: #777777
+    p
+      margin-bottom: 30px
+      font-size: 1.1em
+      line-height: 1.8em
+      color: #ccc
+
+      a
+        color: #1CCCFF !important
+
+    h2
+      display: none
+    .btn-primary
+      background-color: #333333
+      border-color: #333333
+      margin-top: 0.4em
+
+  .portfolio-caption
+    background-color: #333333
+    h3
+      color: #1CCCFF
+      margin: 0 0 22px
+
+      &.item-intro
+        margin: 20px 0 30px
+        font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif
+        font-style: italic
+        font-size: 1em
+    ul.list-inline
+      margin-top: 0
+  .close-modal
+    position: absolute
+    width: 75px
+    height: 75px
+    background-color: transparent
+    top: 25px
+    right: 25px
+    cursor: pointer
+    &:hover
+      opacity: 0.3
+    .lr
+      height: 75px
+      width: 1px
+      margin-left: 35px
+      background-color: #ffffff
+      transform: rotate(45deg)
+      z-index: 1051
+      .rl
+        height: 75px
+        width: 1px
+        background-color: #ffffff
+        transform: rotate(90deg)
+        z-index: 1052
+#cocModal .modal-content h2
+  display: block
+
+.modal-body
+  h2,
+  h3
+    color: #1CCCFF
+
+@media (max-width: 767px)
+  .portfolio-modal .modal-content h2
+    font-size: 2em
+
+\::-moz-selection, ::selection
+  text-shadow: none
+  background: #1f8ab6
+  color: white
+
+img
+  &::selection, &::-moz-selection
+    background: transparent
+
+footer .list-inline
+  margin: 20px 0
+
+#tickets .list-including li
+  color: #2fb0d5
+  small
+    color: #999
+
+.content-body
+  h4.col-sm-4
+    margin-top: 4px
+    color: #c55a02
+    opacity: 0.9
+  background-color: #333
+
+#home-link
+  font-family: 'Easycore'
+  font-size: 3em
+  font-weight: 100
+  letter-spacing: 0.09em
+  line-height: 0.26em
+
+.content-body,
+#talks,
+#team,
+#cfp,
+#highlights
+  background-color: #222222
+  h2,
+  h4
+    color: #1CCCFF
+  a
+    color: white
+  ul li a
+    color: white
+    &:hover
+      color: #1CCCFF
+      background-color: #777
+
+.article
+  h3
+    color: #1CCCFF
+  color: white
+
+  a
+    color: #1CCCFF
+
+#tickets
+  padding-bottom: 120px
+  margin-top: -25px
+
+#cfp
+  a
+    color: #1CCCFF
+
+#diversity
+  .container
+    .row
+      .col-md-10
+        margin-bottom: 0
+
+      &:last-child
+        margin-bottom: 100px

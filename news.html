@@ -1,0 +1,25 @@
+---
+layout: default
+title: News
+---
+
+<section id="news" class="content">
+  <div class="container">
+    <h3>News</h3>
+
+    {% for post in site.posts %}
+      <article>
+        <header>
+          <h1>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h1>
+          <time datetime="{{ post.date | date_to_xmlschema }}">Posted {{ post.date | date_to_long_string }}</time>
+        </header>
+
+        {{ post.excerpt }}
+
+        <a href="{{ post.url }}">Read full post &raquo;</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>

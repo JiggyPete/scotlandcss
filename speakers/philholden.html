@@ -1,0 +1,29 @@
+---
+layout: speaker
+title: Phil Holden
+speaker_name: Phil Holden
+---
+<p>
+  When writing a karaoke web app I had the challenge of simultaneously making verses appear as large as possible on mobile phones, tablets and TVs. Each having different aspect ratios and resolutions.
+</p>
+<p>
+  I soon discovered that unless I broke lines much of the screen would be wasted. But in order to optimally conform text to a desired aspect ratio:
+</p>
+<p>
+  Which lines should I break?
+  <br/>
+  How many times?
+  <br/>
+  Where?
+  <br/>
+  I also wanted to keep lines as even length as possible. In the end I decided to automatically evaluate 1000s of possible layouts for each song until I found the best for the current screen.
+</p>
+<p>
+  Should I use DOM, SVG or canvas?
+</p>
+<p>
+  The font metrics in JS is not very accurate so I will detail the dirty methods I used to find the true size of rendered text.
+</p>
+<p>
+  Breakpoints often don’t give the power needed to fit a design on a single screen. JavaScript is very fast at mathematical operations and the approach of evaluating a large number of plausible layouts and selecting the best may hold promise for more areas than typography.
+</p>
