@@ -3,6 +3,7 @@ task :deploy do
 
   system "jekyll build"
   system "cp -rf _site ../scotlandcss-deploy"
+  system "git checkout ."
   system "git checkout gh-pages"
   system "git pull origin gh-pages"
   system "rm -rf *"
