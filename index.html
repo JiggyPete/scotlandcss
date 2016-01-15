@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&amp;subset=latin" rel="stylesheet">
   <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap-8c110b710ef59cc126747b74f9e3f52f.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome-078a614ab0f14d9b38157c8a45dc8420.css">
-  <link rel="stylesheet" href="/assets/application-0f8336d6cfe0119d9e78defd14116113.css">
+  <link rel="stylesheet" href="/assets/application-a8ff1a97b9c079b777ca73c96b929021.css">
   <style type="text/css">@font-face {font-family: "Easycore"; src: url('/fonts/Easycore.ttf') format("truetype");}</style>
 
   <script src="/assets/vendor/jquery/dist/jquery-3df5857d19acba0f22b48633d5f6b9d6.js"></script>
@@ -61,10 +61,10 @@
         <li><a href="/" id="home-link" class="page-scroll">Scotland CSS</a></li>
         <li><a href="/#tickets" class="page-scroll">Tickets</a></li>
         <li><a href="/#talks" class="page-scroll">Speakers</a></li>
-        <li><a href="/cfp">CFP</a></li>
+        <li><a href="/cfp"><span class="sr-only">Call for proposals</span><span aria-hidden="true">CFP</span></a></li>
         <!-- <li><a href="/#sponsors" class="page-scroll">Sponsors</a></li> -->
         <li><a href="/codeofconduct">Code of Conduct</a></li>
-        <li><a href="https://twitter.com/ScotlandCSS" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/ScotlandCSS" class="fa-wrapper"><i class="fa fa-2x fa-twitter"></i><span class="sr-only">Follow Scotland CSS on Twitter</span></a></li>
       </ul>
     </div>
   </div>
@@ -94,12 +94,12 @@
 
             <img src=/assets/speakers/nicole_sullivan-c39e69a56c0b4ba12eaeb874fc7207f6.jpg srcset=/assets/speakers/nicole_sullivan@2x-8a504228b70a822749c455c434cfa17d.jpg alt="Nicole Sullivan" width="150" height="150"/>
             <div class="info">
-              <h4>Nicole Sullivan <small>@stubbornella</small></h4>
+              <h3><span aria-hidden="true">Nicole Sullivan </span> <small>@stubbornella</small></h3>
               <p></p>
             </div>
           </a>
 
-          <div tabindex="-1" role="dialog" aria-hidden="true" id="nicole" class="portfolio-modal modal fade">
+          <div tabindex="-1" role="dialog" id="nicole" class="portfolio-modal modal fade">
   <div class="modal-content">
     <div data-dismiss="modal" class="close-modal">
       <div class="lr">
@@ -113,10 +113,10 @@
             <h2>Nicole Sullivan</h2>
             <div class="portfolio-item">
               <span class="portfolio-link">
-                <img src=/assets/speakers/nicole_sullivan-c39e69a56c0b4ba12eaeb874fc7207f6.jpg srcset=/assets/speakers/nicole_sullivan@2x-8a504228b70a822749c455c434cfa17d.jpg alt="Nicole Sullivan" width="400" height="289"/>
+                <img src=/assets/speakers/nicole_sullivan-c39e69a56c0b4ba12eaeb874fc7207f6.jpg srcset=/assets/speakers/nicole_sullivan@2x-8a504228b70a822749c455c434cfa17d.jpg alt="" width="400" height="289"/>
               </span>
               <div class="portfolio-caption">
-                <h3>Nicole Sullivan</h3>
+                <h3 tabindex="0">Nicole Sullivan</h3>
                 <ul class="list-inline social-buttons">
                   <li><a href="https://twitter.com/stubbornella"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://github.com/stubbornella"><i class="fa fa-github-alt"></i></a></li>
@@ -135,7 +135,7 @@
 
           <a href="#harry" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src=/assets/speakers/harry_roberts_thumb-3219a3f1ccba7665b24fa0d117e9865a.jpg srcset=/assets/speakers/harry_roberts_thumb@2x-ec648d04d43c8077932fffe696194f4b.jpg alt="Harry Roberts" width="150" height="150"/>
           <div class="info">
-            <h4>Harry Roberts <small>@CSSWizardry</small></h4>
+            <h3><span aria-hidden="true">Harry Roberts </span> <small>@CSSWizardry</small></h3>
             <p></p>
           </div></a>
 
@@ -226,7 +226,7 @@
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
         <p class="text-center">
-          A limited number of <a href="https://ti.to/scotlandjs/scotlandcss-2016">Early Bird Tickets</a> will go on sale at 9am GMT, Wednesday 13th January. Get in quick!
+          Tickets can be purchased  <a href="https://ti.to/scotlandjs/scotlandcss-2016">here</a>.
         </p>
         <p class="text-center">
           By purchasing your ticket early (mid-Feb or before) you, the attendee, get to vote for the sessions submitted via the CFP that you want to see as part of ScotlandCSS 2016!
@@ -321,31 +321,61 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/jiggy_pete-eed8c8147df558ef55dc8d938a8f1941.jpg alt="Peter Aitken" class="img-responsive img-circle">
-          <h4>Peter Aitken</h4>
+          <h3>Peter Aitken</h3>
           <p class="text-muted"><a href="http://scotlandcss.com">Organiser</a></p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/jiggy_pete"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/jiggypete"><i class="fa fa-github-alt"></i></a></li>
-            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+            <li>
+              <a href="https://twitter.com/jiggy_pete">
+                <span class="sr-only">Twitter @jiggy_pete</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/jiggypete">
+                <span class="sr-only">Github jiggypete</span>
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://cultivatehq.com/">
+                <span class="sr-only">Cultivatehq.com</span>
+                <i class="fa fa-globe"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/kevin_lorenz-06b48a6a586f24677ea81a88cd771aa8.jpg alt="Kevin Lorenz" class="img-responsive img-circle">
-          <h4>Kevin Lorenz</h4>
+          <h3>Kevin Lorenz</h3>
           <p class="text-muted"><a href="http://scotlandcss.com">MC</a></p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/verpixelt"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/verpixelt"><i class="fa fa-github-alt"></i></a></li>
+            <li>
+              <a href="https://twitter.com/verpixelt">
+                <span class="sr-only">Twitter @verpixelt</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/verpixelt">
+                <span class="sr-only">Github verpixelt</span>
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/suzanne-8be91a37627f68ec66fa35af69262ac1.jpg alt="Suzanne McCulley" class="img-responsive img-circle">
-          <h4>Suzanne McCulley</h4>
+          <h3>Suzanne McCulley</h3>
           <p class="text-muted"><a href="http://scotlandcss.com">MC</a></p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/uk_suzanne"><i class="fa fa-twitter"></i></a></li>
+            <li>
+              <a href="https://twitter.com/uk_suzanne">
+                <span class="sr-only">Twitter @uk_suzanne</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -353,68 +383,166 @@
     <div class="row">
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/alan-31756d1ad49aa4045ed4cc4b71a9fdeb.jpg alt="Alan Gardner" class="img-responsive img-circle">
-          <h4>Alan Gardner</h4>
+          <h3>Alan Gardner</h3>
           <p class="text-muted">Staff</p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/mr_urf"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/urfolomeus"><i class="fa fa-github-alt"></i></a></li>
-            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+            <li>
+              <a href="https://twitter.com/mr_urf">
+                <span class="sr-only">Twitter @mr_urf</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/urfolomeus">
+                <span class="sr-only">Github urfolomeus</span>
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://cultivatehq.com/">
+                <span class="sr-only">Cultivatehq.com</span>
+                <i class="fa fa-globe"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/varya-8174837f8f97a9c3fa796dfa60761e06.jpg alt="Varya Stepenova" class="img-responsive img-circle">
-          <h4>Varya Stepenova</h4>
+          <h3>Varya Stepenova</h3>
           <p class="text-muted">Staff</p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/varya_en"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/varya"><i class="fa fa-github-alt"></i></a></li>
+            <li>
+              <a href="https://twitter.com/varya_en">
+                <span class="sr-only">Twitter @varya_en</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/varya">
+                <span class="sr-only">Github varya</span>
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="team-member"><img width="225" height="225" src=/assets/team/andy-25584df3ec5850391c7d0d56c6ed4c95.jpg alt="Andy Robinson" class="img-responsive img-circle">
-          <h4>Andy Robinson</h4>
+          <h3>Andy Robinson</h3>
           <p class="text-muted">Staff</p>
           <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/andyrobnsn"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://cultivatehq.com/"><i class="fa fa-globe"></i></a></li>
+            <li>
+              <a href="https://twitter.com/andyrobnsn">
+                <span class="sr-only">Twitter @andyrobnsn</span>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://cultivatehq.com/">
+                <span class="sr-only">Cultivatehq.com</span>
+                <i class="fa fa-globe"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="team-member"><img width="225" height="225" src=/assets/team/tj-9afd821a192bbaf8611933088026ba78.jpg alt="TJ Sheehy" class="img-responsive img-circle">
-          <h4>TJ Sheehy</h4>
-          <p class="text-muted">Staff</p>
-          <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/tjsheehy"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://github.com/tjsheehy"><i class="fa fa-github-alt"></i></a></li>
-          </ul>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member"><img width="225" height="225" src=/assets/team/tj-9afd821a192bbaf8611933088026ba78.jpg alt="TJ Sheehy" class="img-responsive img-circle">
+            <h3>TJ Sheehy</h3>
+            <p class="text-muted">Staff</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://twitter.com/tjsheehy">
+                  <span class="sr-only">Twitter @tjsheehy</span>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/tjsheehy">
+                  <span class="sr-only">Github tjsheehy</span>
+                  <i class="fa fa-github-alt"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member"><img width="225" height="225" src=/assets/team/beatrice-4981400e21d900f3b584a4a6cdda7843.jpg alt="Béatrice Lejou" class="img-responsive img-circle">
+            <h3>Béatrice Lejou</h3>
+            <p class="text-muted">Staff</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://twitter.com/glovesmore">
+                  <span class="sr-only">Twitter @glovesmore</span>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="team-member"><img width="225" height="225" src=/assets/team/katie_fenn-898600bedabf3b3afcf7a8e51241b1bc.jpg alt="Katie Fenn" class="img-responsive img-circle">
+            <h3>Katie Fenn</h3>
+            <p class="text-muted">Staff</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://twitter.com/katie_fenn">
+                  <span class="sr-only">Twitter @katie_fenn</span>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://katiefenn.co.uk//">
+                  <span class="sr-only">katiefenn.co.uk/</span>
+                  <i class="fa fa-globe"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="team-member"><img width="225" height="225" src=/assets/team/beatrice-4981400e21d900f3b584a4a6cdda7843.jpg alt="Béatrice Lejou" class="img-responsive img-circle">
-          <h4>Béatrice Lejou</h4>
-          <p class="text-muted">Staff</p>
-          <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/glovesmore"><i class="fa fa-twitter"></i></a></li>
-          </ul>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member"><img width="225" height="225" src=/assets/team/sareh-d44826b83ba7b23de00c59c10609b98d.jpg alt="Sareh Heidari" class="img-responsive img-circle">
+            <h3>Sareh Heidari</h3>
+            <p class="text-muted">Staff</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://twitter.com/Sareh88">
+                  <span class="sr-only">Twitter @Sareh88</span>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="team-member"><img width="225" height="225" src=/assets/team/katie_fenn-898600bedabf3b3afcf7a8e51241b1bc.jpg alt="Katie Fenn" class="img-responsive img-circle">
-          <h4>Katie Fenn</h4>
-          <p class="text-muted">Staff</p>
-          <ul class="list-inline social-buttons">
-            <li><a href="https://twitter.com/katie_fenn"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://katiefenn.co.uk/"><i class="fa fa-globe"></i></a></li>
-          </ul>
+        <div class="col-sm-4">
+          <div class="team-member"><img width="225" height="225" src=/assets/team/ian-a16bc446b9300b306ae7023ea3382cdf.jpg alt="Ian Burrett" class="img-responsive img-circle">
+            <h3>Ian Burrett</h3>
+            <p class="text-muted">Staff</p>
+            <ul class="list-inline social-buttons">
+              <li>
+                <a href="https://twitter.com/burtware">
+                  <span class="sr-only">Twitter @burtware</span>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.weestoater.com">
+                  <span class="sr-only">www.weestoater.com</span>
+                  <i class="fa fa-globe"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
 </section>
-
 
 <div id="cocModal" tabindex="-1" role="dialog" aria-hidden="true" class="portfolio-modal modal fade">
   <div class="modal-content">
