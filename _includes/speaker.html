@@ -6,7 +6,7 @@
 
 <div class="speaker-info">
 	<a href="/speakers/{{speaker.individual_page}}">
-	  <img src="{{ speaker.image | asset_path }}" />
+	  <img src="{{ speaker.image | asset_path }}" alt=""/>
     {% if speaker.schedule_name %}
 	     <h4>{{ speaker.schedule_name }}</h4>
     {% else %}
