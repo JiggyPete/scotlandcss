@@ -1,306 +1,110 @@
-- name: 'Philip Roberts'
+- name: 'Nicole Sullivan'
   keynote: true
-  individual_page: 'philip'
-  image: 'speakers/phil.png'
-  twitter: '@philip_roberts'
-  title: 'Keynote'
-  bio: "Philip writes JavaScript at &yet, agonizes too much, and is a core-contributor to AmpersandJS. As someone who suffers from depression, he thinks, cares, and sometimes even writes about mental health and it's impact on us all."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: '43BdvIDdZA4'
-- name: 'Lena Reinhard'
-  keynote: true
-  individual_page: 'lena'
-  image: 'speakers/lena2.jpg'
-  twitter: '@lrnrd'
-  title: 'Keynote: A Talk About Nothing'
-  bio: "Lena Reinhard is a CEO, co-founder, project and communications manager. She's part of the Open Source Projects Hoodie and CouchDB, loves making music and enjoys going on extensive road trips. And somehow accidentally she always ends up at places where she meets Alpacas."
-  dietary_requirements: 'Vegatarian'
-  pic_supplied: 'Yes'
-  youtube: 'xl8OWGbZTsM'
-- name: 'Katie Fenn'
-  keynote: false
-  individual_page: 'katie'
-  image: 'speakers/2015/original/katie.jpg'
-  twitter: '@katie_fenn'
-  email: 'katie.fenn@googlemail.com'
-  title: 'Chrome DevTools, Front to Back'
-  bio: "My name is Katie Fenn, I am a Javascript developer with eight years of experience. I've been speaking at user groups for almost as long, and this will be my second conference talk. Stays up far too late for open source software and videogames. Is up far too early watching motorsport."
-  dietary_requirements: '?'
-  pic_supplied: 'No'
-  youtube: _-XfJWl6sRs
-- name: 'Daniel Perez Alvarez'
-  keynote: false
-  individual_page: 'daniel'
-  image: 'speakers/2015/original/daniel_perez_alvarez.png'
-  twitter: '@unindented'
-  email: 'unindented@gmail.com'
-  title: 'The one trick to scaling your frontend codebase...'
-  bio: "Daniel is a Spanish front-end developer living in London, and currently working at Microsoft."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: '6zRQiC28oOo'
-- name: 'Andrew Duncan'
-  keynote: false
-  individual_page: 'andrew'
-  image: 'speakers/2015/original/andrew.jpg'
-  twitter: '@andrewmduncan'
-  email: 'andrew@swarmonline.com'
-  title: 'Memory Leak Health Check - Our Quest to Diagnose & Cure'
-  bio: "Andrew has combined a passion for IT with a strong aptitude for business to create SwarmOnline - one of Scotland's fastest growing tech companies. Three years ago he founded SwarmOnline who became Sencha's first partner outside of the U.S. Since then Andrew has grown the business year on year and acknowledges that Sencha has had a huge impact on his success. Although Andrew is a Managing Director, he his also an experienced and highly competent technologist and solutions architect. He has co-written Ext JS 4 Web Application Development Cookbook and is currently busy writing another two Ext JS books, due out soon. Last year Andrew's success was recognised when he received a nomination for Young Business Person of the Year at the prestigious Glasgow Business Awards. Andrew is a sought after conference speaker. Previous speaking engagements include SenchaCon 2013 in Florida, Citi Group HTML5 Developer Conference in Dublin and ModUXCon in Amsterdam."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: vTEB1xLBJ90
-- name: 'Dave Kennedy'
-  keynote: false
-  individual_page: 'dave'
-  image: 'speakers/2015/small_dave.jpg'
-  twitter: '@bangline_'
-  email: 'david@bangline.co.uk'
-  title: 'TDD in the in the real world'
-  bio: "I'm a Glasgow based developer working in Edinburgh with the awesome 1partCarbon. I also organise the JS user group for Glasgow glasgowjs.com"
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'vA7Tkbt9T0c'
-- name: 'Joe Nash'
-  keynote: false
-  individual_page: 'joe'
-  image: 'speakers/2015/original/joe_nash.jpeg'
-  twitter: '@jna_sh'
-  email: 'joe.nash@getbraintree.com'
-  title: 'A Monad is a Burrito and other Functional Myths'
-  bio: "Joe is a Developer Advocate at Braintree Payments, a PayPal Company. Having learnt the dark arts of FP at the University of Nottingham, Joe is undergoing a PhD in parallel and heterogeneous systems at the University of St Andrews. He believes in the educational benefits of hackathons and hack culture, and supports student hackathons as part of the European team at Major League Hacking."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'AZv8wqK6DHU'
-- name: 'Colin Gemmell'
-  keynote: false
-  individual_page: 'colin'
-  image: 'speakers/2015/original/colin_gemmell.jpg'
-  twitter: '@colin_gemmell'
-  email: 'pythonandchips@gmail.com'
-  title: 'Look Ma No Framework'
-  bio: "Colin Gemmell is Web/Application Developer from Glasgow, Scotland. He has gained a wide range of experience in his time as a developer working on everything from enterprise applications to small promotional web-sites. Starting out first Borland Delphi before graduating to .NET he made the jump to Ruby and Rails and most recently Go. Currently working for 1partcarbon in Edinburgh, building prototypes, full application, hardware products and deal with infrastructure. A constant presence in the in the Glasgow tech community Colin has spoken a numerous programming and tech events and conferences covering the length and breadth of the UK."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'rFMBtrHq8R4'
-- name: 'Orde Saunders'
-  keynote: false
-  individual_page: 'orde'
-  image: 'speakers/2015/original/orde.png'
-  twitter: '@decadecity'
-  email: 'orde@decadecity.net'
-  title: 'Cascade, Specificity and a Single name space or: How I learned to stop worrying and tolerate CSS'
-  bio: "Building device agnostic websites - stuck between the past and the future."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: jbmRS-YGxmw
-- name: 'Mark Connell'
-  keynote: false
-  individual_page: 'mark'
-  image: 'speakers/2015/small_mark.jpg'
-  twitter: '@mconnell'
-  email: 'mark@markconnell.co.uk'
-  title: 'Accessibility & JavaScript-based websites'
-  bio: "Mark likes coding whilst entertaining his budgie, the ever lovable, Barnie."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: '5avGzi6axTc'
-- name: 'Hubert Sablonni&egrave;re'
-  keynote: false
-  individual_page: 'hubert'
-  image: 'speakers/2015/original/hubert.jpg'
-  twitter: '@hsablonniere'
-  email: 'hubert.sablonniere@gmail.com'
-  title: 'Exploring multi-screen web techniques'
-  bio: "I'm a curious and passionnate Web developer working for INEAT Conseil. I'm specialized in HTML, CSS and JavaScript but I also use server side technologies like NodeJS, PHP, Java, Neo4j. <br/><br/>My motivation : \"To push the technology far enough to find new ways to improve user's experiences.\""
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: '-o8B4TE18gI'
-- name: 'Greg Tarnoff'
-  keynote: false
-  individual_page: 'greg'
-  image: 'speakers/2015/small_greg.jpg'
-  twitter: '@gregtarnoff'
-  email: 'greg.tarnoff@me.com'
-  title: "UX of Stairs: When Simple Tasks Aren't So Simple"
-  bio: "I'm a front end developer by day and accessibility hero all the time. I have been building websites and applications for over a decade. From the very beginning I focused on building products that work for all users. Recently I began having difficulty of my own with vertigo. It has transformed how I see the world around me and how I build products with my team and clients. Additionally, I like long walks at sunset, photography, hand lettering, drawing and have a rabid obsession with single malt scotch."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'TfiNP8iWDSo'
-- name: 'Amy Wibowo'
-  schedule_name: 'Amy Wibowo and Matt Baker'
-  keynote: false
-  individual_page: 'amy'
-  image: 'speakers/2015/original/amy/small_amy.jpg'
-  twitter: '@sailorhg'
-  email: 'sailorhg@gmail.com'
-  title: "Programming building blocks (literally)"
-  bio: "Amy is a software engineer at Airbnb. Prior to Airbnb, she's done machine learning research on the ASIMO team at Honda Research Institute in Japan and HCI research at the University of Tokyo. She also enjoys hardware hacking and the intersection of art and technology - in particular, making tools that enable people to be more creative."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'YPCdgg99Pws'
-  additional_speaker:
-    name: 'Matt Baker'
-    keynote: false
-    individual_page: 'amy'
-    image: 'speakers/2015/original/amy/matt.jpg'
-    twitter: ''
-    email: 'matthew.reiss.baker@gmail.com'
-    bio: "Matt is currently a software engineer at Airbnb on the Developer Happiness team, and was previously a game developer and computer graphics researcher. His work focuses on high-performance systems and rendering techniques. Having grown up across six states and two countries, he enjoys reading, 'riting, 'rithmetic, and road trips."
-    dietary_requirements: 'None'
-    pic_supplied: 'Yes'
-- name: 'Gleb Bahmutov'
-  keynote: false
-  individual_page: 'gleb'
-  image: 'speakers/2015/original/gleb-high-res.jpg'
-  twitter: '@bahmutov'
-  email: 'gleb.bahmutov@gmail.com'
-  title: "Journey from procedural to reactive JavaScript with stops"
-  bio: "Gleb Bahmutov is JavaScript ninja, image processing expert and software quality fanatic. After receiving a PhD in computer science from Purdue University, Gleb worked on laser scanners, 3D reconstruction, and panorama-based virtual tours at EveryScape. Later Gleb switched to writing browser data visualization software at MathWorks. After a year, Gleb went back to the startup environment and developed software quality analysis tools at uTest (now Applause). Today Gleb is developing real-time financial analysis tools at Kensho. He blogs about software development topics at http://bahmutov.calepin.co/ and links his projects at http://glebbahmutov.com/. You can follow him and his work @bahmutov"
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'VKDLJNGrHSg'
-- name: 'Varya Stepanova'
-  keynote: false
-  individual_page: 'varya'
-  image: 'speakers/2015/small_varya2.jpg'
-  twitter: '@varya_en'
-  email: 'mail@varya.me'
-  title: "Driving the Style Guide Driven Development"
-  bio: "Varya Stepanova is a front end developer originally from the North of Russia currently based in Helsinki, Finland. She mostly specialises in open source UI components and libraries as well as in automation the development processes, frequently speaks at meetups and conferences and authors frontend articles. Currently, in Helsinki-based company \"SC5 Online\" Varya takes part in developing the style guide generators and other development tools as well as introduces and supports the style-guide-driven process and component-focused development."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'gWzYMJjtx-Y'
-- name: 'Philipp Reither'
-  keynote: false
-  individual_page: 'philreither'
-  image: 'speakers/2015/original/philreither.jpg'
-  twitter: '@philreither'
-  email: 'philipp.reither@gmail.com'
-  title: "Fire your Sysadmin: use Docker to Build, Ship and Run Any App, Anywhere"
-  bio: "Phil wrangles code at stitch.net-trying to make the world a better place one function at a time. He loves being part of the web and even though he is in awe at how fast it is evolving, he's still waiting for the downloadable gin&tonic."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'GL587s2ArAk'
-- name: 'Francisco M.S. Ferreira'
-  keynote: false
-  individual_page: 'francisco'
-  image: 'speakers/2015/original/francisco.jpeg'
-  twitter: '@fmsf303'
-  email: 'francisco.m.s.ferreira@gmail.com'
-  title: "JavaScript Craftsmanship"
-  bio: "Agile Software Engineer @ eBay Europe Specialized front end web engineer with an entrepreneurial spirit and a passion for solving problems. Particularly interested in web and mobile companies with high user reach, creators of new markets which have excellent motivated technical teams. Competitive engineer with team spirit. Won multiple programming awards. Speaks 5 languages and has lived in three countries. Values quantitative data-driven solutions. Likes to build things and is always looking for the next big thing. As a JavaScript expert, Francisco is able to implement, in structured code, any interface required for a project, even if it's usability demands complex algorithms or uncommon data structures to be achieved. With a Masters in Informatics Engineering he is not limited to the front end, being easily adaptable to work in multiple parts of an application, effectively making him a Full Stack Engineer. At the start of his professional career he created his own startup (IQS-Quality Software, Lda.), which kept him busy working as the technical lead of his team. After three years he decided to join a Luxembourgish startup (Trendiction) where worked as a Software Engineer. Currently an Agile Engineer at eBay's European mobile web team in London."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: HaN-Tdfh_i8
-- name: 'Kim Joar Bekkelund'
-  keynote: false
-  individual_page: 'kim'
-  image: 'speakers/2015/small_kim.jpg'
-  twitter: '@kimjoar'
-  email: 'kjbekkelund@gmail.com'
-  title: "Writing Beautiful JavaScript Tests"
-  bio: "Kim is the creator of Superhero.js and the practice lead for JavaScript at Bekk Consulting in Oslo, Norway. He primarily works on large-scale JavaScript applications for some of the largest companies in Norway, and he strongly believes that we should treat JavaScript as a real language when we use it to build large applications. In his spare time he's currently planning a road-trip to Mongolia."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: kkeka3DyJWs
-- name: 'Chris Price'
-  keynote: false
-  individual_page: 'chris'
-  image: 'speakers/2015/original/chris_price.png'
-  twitter: '@100pxls'
-  email: 'price.c@gmail.com'
-  title: "Creating D3 components: a journey of pain, joy, frustration and enlightenment"
-  bio: "My name is Chris Price, I'm based in Newcastle upon Tyne and work as a Software Engineer at Scott Logic. I spend my days developing desktop/tablet/mobile web apps for financial services companies. Unfortunately most of those are hidden behind paywalls but I do like to blog about it when I can."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'aVps_7Llo-M'
-- name: 'Chris Lowis'
-  keynote: false
-  individual_page: 'chrislowis'
-  image: 'speakers/2015/small_chris_lowis.jpg'
-  twitter: '@chrislowis'
-  email: 'chris.lowis@gmail.com'
-  title: "A Brief History of Synthesis with the Web Audio API"
-  bio: "I'm a software developer and audio enthusiast. I've been involved with the W3C's effort to standardise the Web Audio API from the very beginning, and love writing about and sharing audio-related things on my blog and in my newsletter Web Audio Weekly."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'd8TCq0xLnV4'
-- name: 'Jaume Sanchez'
-  keynote: false
-  individual_page: 'jaume'
-  image: 'speakers/2015/original/jaume.jpg'
-  twitter: '@thespite'
-  email: 'the.spite@gmail.com'
-  title: "What are shaders and what can they do for me?"
+  bio_image: 'speakers/nicole_sullivan.jpg'
+  bio_image2: 'speakers/nicole_sullivan@2x.jpg'
+  individual_page: 'nicole'
+  image: 'speakers/nicole_sullivan.jpg'
+  image2: 'speakers/nicole_sullivan@2x.jpg'
+  twitter: '@stubbornella'
+  github: 'stubbornella'
+  website: 'http://stubbornella.org'
+  title: ''
   bio: ""
-  dietary_requirements: '?'
-  pic_supplied: 'Yes'
-  youtube: 'dZGvcvKuBPE'
-- name: 'Ben Longden'
+
+- name: 'Harry Roberts'
+  keynote: true
+  bio_image: 'speakers/harry_roberts.jpg'
+  bio_image2: 'speakers/harry_roberts@2x.jpg'
+  individual_page: 'harry'
+  image: 'speakers/harry_roberts_thumb.jpg'
+  image2: 'speakers/harry_roberts_thumb@2x.jpg'
+  twitter: '@csswizardry'
+  github: 'csswizardry'
+  website: 'http://csswizardry.com'
+  title: ''
+  bio: "With a client list including Google, the United Nations, and Unilever, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at csswizardry.com; develops and maintains inuitcss; authored CSS Guidelines; and Tweets at @csswizardry."
+
+- name: 'Natalya Shelburne'
   keynote: false
-  individual_page: 'ben'
-  image: 'speakers/2015/original/ben.png'
-  twitter: '@blongden'
-  email: 'blongden@inviqa.com'
-  title: "Adaptive and evolvable applications"
-  bio: "Ben is CTO at the Inviqa Group and has been working with web technology since mid 2002, using a variety of different languages and methodologies. He has worked across different industries including Mobile Marketing, Data, ISP and Professional Services. He's been writing and contributing to open source projects for much of that time and has a keen interest in the design of beautiful, RESTful web services. Outside of work he is a father, and with what little spare time he has, he can be found hacking one of his own projects or infrequently blogging on techPortal and his own personal blog at http://nocarrier.co.uk"
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'Ygga1aPuguM'
-- name: 'Phil Holden'
-  schedule_name: 'Phil Holden and Lelen Huang'
+  bio_image: 'speakers/natalya_shelburne.jpg'
+  bio_image2: 'speakers/natalya_shelburne@2x.jpg'
+  individual_page: 'natalya'
+  image: 'speakers/natalya_shelburne_thumb.jpg'
+  image2: 'speakers/natalya_shelburne_thumb@2x.jpg'
+  twitter: '@natalyathree'
+  website: 'https://medium.com/@tallys'
+  title: 'Practical Color Theory for People Who Code'
+  bio: "Natalya Shelburne is a classically trained fine artist who spent 6 years lecturing and teaching people how to paint, draw, and grow their creativity. Upon realizing that the Renaissance had in fact already ended, she decided to join the modern world and is now a front end developer.<br/><br/>Natalya works to blur the line between designer and developer by sharing and updating old school design theory for the web. Crossing domains is a passion - in addition to a degree in Studio Art, she has a bachelor’s in Developmental Psychology and a master’s degree in Creativity and Talent Development, and works to weave interesting facts about how our brains work, learn, and develop into every talk.<br/><br/>When she is not writing code, she is drawing, cooking, traveling, or drinking absurd amounts of coffee."
+
+- name: 'David Berner'
   keynote: false
-  individual_page: 'philholden'
-  image: 'speakers/2015/small_phil_holden.jpg'
-  twitter: ''
-  email: 'phil.m.holden@gmail.com'
-  title: "Intelligent Responsive Typography"
-  bio: "Phil is a web specialist at NCR Edinburgh. He likes computers because sometimes they believe his ideas will work before people do. He enjoys writing 2D games and other multi-user online experiences."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: 'K1LtTDDu9E4'
-  additional_speaker:
-    name: 'Lelen Huang'
-    keynote: false
-    individual_page: 'philholden'
-    image: 'speakers/2015/original/lelen.jpg'
-    twitter: ''
-    email: 'phil.m.holden@gmail.com'
-    bio: "Lelen is a senior designer. She believes everything can be improved with design and is always designing things in her mind."
-    dietary_requirements: 'None'
-    pic_supplied: 'Yes'
-- name: 'Sam Beckham'
+  bio_image: 'speakers/david_berner.jpg'
+  bio_image2: 'speakers/david_berner@2x.jpg'
+  individual_page: 'david'
+  image: 'speakers/david_berner.jpg'
+  image2: 'speakers/david_berner@2x.jpg'
+  twitter: '@davislurve'
+  website: 'http://www.fedordead.com'
+  title: 'Shedding light on the shadow dom'
+  bio: "David is a front-end developer from the UK who is currently working for Campaign Monitor. He has been coding since 1998 when spacer gifs and blink tags were still a thing. He is passionate about moving the web forward and writes about this (and all things front-end) over at fedordead.com. You can also follow him on Twitter @davislurve"
+
+- name: 'Christoph Reinartz'
   keynote: false
-  individual_page: 'sam'
-  image: 'speakers/2015/original/sam.jpg'
-  twitter: '@samdbeckham'
-  email: 'sam@sambeckhamdesign.com'
-  title: "Improving pattern libraries, with Polymer"
-  bio: "I am a front-end developer from Newcastle upon Tyne. I like playing about with new web technologies, and I love applying them to real projects even more."
-  dietary_requirements: 'None'
-  pic_supplied: 'Yes'
-  youtube: AQKH3gSY6XU
+  bio_image: 'speakers/christoph_reinartz.png'
+  bio_image2: 'speakers/christoph_reinartz@2x.png'
+  individual_page: 'christoph'
+  image: 'speakers/christoph_reinartz.png'
+  image2: 'speakers/christoph_reinartz@2x.png'
+  twitter: '@pistenprinz'
+  website: 'http://www.creinartz.de'
+  title: 'Large Scale CSS Refactoring'
+  bio: "UX Engineer & Frontend Architect, Fullstack CSS Developer & Team Lead UI/UX Engineering @trivago - coffee, code, be happy, repeat"
+
+- name: 'James Steinbach'
+  keynote: false
+  bio_image: 'speakers/james.jpg'
+  bio_image2: 'speakers/james@2x.jpg'
+  individual_page: 'james'
+  image: 'speakers/james.jpg'
+  image2: 'speakers/james@2x.jpg'
+  twitter: '@jdsteinbach'
+  website: 'https://jdsteinbach.com'
+  title: 'Using Musical Scales to Build Harmonious Typography'
+  bio: "I’m a Chicago native currently loving the mountains of Denver after a long sojourn in the Carolinas. When I’m not building websites, I love to read suspense/espionage fiction or watch comedy. Time with my wife Audrey & tiny daughter is always a delight, and I rarely say no to fantastic food & drink.<br/><br/>When I am building websites, I love developing clever animations: motion is one of the best ways to delight users and help them understand their interaction with content. I want to make content accessible to every user, so responsive design is a must. I also want to keep things organized for future me or future developers, so I’m using Sass to keep style code as clean and light as possible."
+
+- name: 'Barak Chamo'
+  keynote: false
+  bio_image: 'speakers/barak.png'
+  bio_image2: 'speakers/barak@2x.png'
+  individual_page: 'barak'
+  image: 'speakers/barak.png'
+  image2: 'speakers/barak@2x.png'
+  twitter: '@barakchamo'
+  website: 'http://github.com/barakchamo'
+  github: 'barakchamo'
+  title: 'Generative Art with CSS'
+  bio: "Hi, I’m Barak<br/><br/>I’m a London-based software developer, creative coder, entrepreneur, musician and a bunch of other things :)<br/><br/>Formerly an engineer for Staance, Ometria, CoolaData and others, I’ve worked with startups around the world focusing on developing meaningful user experiences, insightful data visualizations and innovative products. I’m mostly self taught and such, I constantly seek to learn and experience new things.<br/><br/>As a creative maker I enjoy messing around in the space between art and technology. I recently returned from the Recurse Center in NY where I explored Audiovisual software, IoT, game development and other creative coding pursuits.<br/><br/>I’m excited by new technology, love exploring it and talking about it :)"
+
 - name: 'Lewis Cowper'
   keynote: false
+  bio_image: 'speakers/lewis.jpg'
+  bio_image2: 'speakers/lewis@2x.jpg'
   individual_page: 'lewis'
-  image: 'speakers/2015/small_lewis.jpg'
+  image: 'speakers/lewis.jpg'
+  image2: 'speakers/lewis@2x.jpg'
   twitter: '@lewiscowper'
-  email: 'lewis.cowper@googlemail.com'
-  title: "How I went from forklift driver to developer in 9 months"
-  bio: "UX Engineer at WANdisco in Sheffield. Works in AngularJS on a UI core that gives our development teams the tools to provide consistently great user experience, and implements those UIs where necessary. Excited Hoodie community member, Sherlock coat wearer, former forklift driver, and red panda lover."
-  dietary_requirements: '?'
-  pic_supplied: 'No'
-  youtube: 'V6OsD60ne0w'
-- name: 'WebAudio Hack Day Demo'
-  keynote: false
-  individual_page: ''
-  image: 'webaudio-js.png'
-  twitter: ''
-  email: ''
-  title: ""
+  website: 'http://hi.lewis.red'
+  title: 'Approachable projects on the web of 2016'
   bio: ""
-  dietary_requirements: 'NONE'
-  pic_supplied: 'Yes'
-  youtube: eDWIpPLncQw
+
+- name: 'Umar Hansa'
+  keynote: false
+  bio_image: 'speakers/umar_hansa.jpg'
+  bio_image2: 'speakers/umar_hansa@2x.jpg'
+  individual_page: 'umar'
+  image: 'speakers/umar_hansa.jpg'
+  image2: 'speakers/umar_hansa@2x.jpg'
+  twitter: '@umaar'
+  website: 'https://umaar.com/'
+  title: 'An A to Z of CSS'
+  bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at Shazam and is also a Google Developer Expert for Chrome.<br/><br/>Using Chrome tooling such as the DevTools for an improved development workflow but also for debugging performance issues is an area which he plans to explore further and share information about to the community."

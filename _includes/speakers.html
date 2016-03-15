@@ -8,32 +8,15 @@
       </div>
       <div class="row">
         <div class="col-lg-12 text-center">
-          <a href="#nicole" data-toggle="modal" class="speaker  col-md-4 col-sm-6">
-
-            <img src={{ "speakers/nicole_sullivan.jpg" | asset_path }} srcset={{ "speakers/nicole_sullivan@2x.jpg" | asset_path }} alt="Nicole Sullivan" width="150" height="150"/>
-            <div class="info">
-              <h3><span aria-hidden="true">Nicole Sullivan </span> <small>@stubbornella</small></h3>
-              <p></p>
-            </div>
-          </a>
-
-          {% include nicole.html %}
-
-          <a href="#harry" data-toggle="modal" class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/harry_roberts_thumb.jpg" | asset_path }} srcset={{ "speakers/harry_roberts_thumb@2x.jpg" | asset_path }} alt="Harry Roberts" width="150" height="150"/>
-          <div class="info">
-            <h3><span aria-hidden="true">Harry Roberts </span> <small>@CSSWizardry</small></h3>
-            <p></p>
-          </div></a>
-
-          {% include harry.html %}
-
-          <a href="/cfp">
-            <div class="speaker  col-md-4 col-sm-6"><img src={{ "speakers/and_you_thumb.jpg" | asset_path }} srcset={{ "speakers/and_you_thumb@2x.jpg" | asset_path }} alt="And you?" width="150" height="150"/>
-              <div class="info">
-                <h4>And you? <small></small></h4>
-              </div>
-            </div>
-          </a>
+          {% include speaker.html speaker="Nicole Sullivan" %}
+          {% include speaker.html speaker="Harry Roberts" %}
+          {% include speaker.html speaker="Natalya Shelburne" %}
+          {% include speaker.html speaker="David Berner" %}
+          {% include speaker.html speaker="Christoph Reinartz" %}
+          {% include speaker.html speaker="James Steinbach" %}
+          {% include speaker.html speaker="Barak Chamo" %}
+          {% include speaker.html speaker="Lewis Cowper" %}
+          {% include speaker.html speaker="Umar Hansa" %}
         </div>
       </div>
       <div class="row">
