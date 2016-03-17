@@ -75,10 +75,10 @@
 - name: 'Barak Chamo'
   keynote: false
   bio_image: 'speakers/barak.png'
-  bio_image2: 'speakers/barak@2x.png'
+  bio_image2: 'speakers/barak.png'
   individual_page: 'barak'
   image: 'speakers/barak.png'
-  image2: 'speakers/barak@2x.png'
+  image2: 'speakers/barak.png'
   twitter: '@barakchamo'
   website: 'http://github.com/barakchamo'
   github: 'barakchamo'
@@ -108,3 +108,27 @@
   website: 'https://umaar.com/'
   title: 'An A to Z of CSS'
   bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at Shazam and is also a Google Developer Expert for Chrome.<br/><br/>Using Chrome tooling such as the DevTools for an improved development workflow but also for debugging performance issues is an area which he plans to explore further and share information about to the community."
+
+- name: 'Katie Fenn'
+  keynote: false
+  bio_image: 'team/katie_fenn.jpg'
+  bio_image2: 'team/katie_fenn.jpg'
+  individual_page: 'katie'
+  image: 'team/katie_fenn.jpg'
+  image2: 'team/katie_fenn.jpg'
+  twitter: '@katie_fenn'
+  website: 'http://www.katiefenn.co.uk'
+  title: 'Writing Modular Stylesheets with CSS Modules'
+  bio: "Katie Fenn is a software engineer with ten years of experience working with JS, CSS and PHP. She is usually up far too late working on open source projects or playing videogames, and up far too early watching motorsport."
+
+- name: 'Ross Penman'
+  keynote: false
+  bio_image: 'speakers/ross.jpg'
+  bio_image2: 'speakers/ross.jpg'
+  individual_page: 'ross'
+  image: 'speakers/ross.jpg'
+  image2: 'speakers/ross.jpg'
+  twitter: '@PenmanRoss'
+  website: 'https://rosspenman.com'
+  title: 'Programming with Sass'
+  bio: "Ross is a web developer and Computer Science student at the University of Edinburgh. They maintain the popular Sass-Web-Fonts library, as well as the SassUnit testing framework. Ross was a finalist for Emerging Talent of the Year at the 2014 Net Awards, and has written for well-known web-related publications A List Apart and the Pastry Box Project. They also work to promote young people in tech, and helped to organise Hack the Burgh, a student hackathon hosted by the University of Edinburgh Computing Society."
