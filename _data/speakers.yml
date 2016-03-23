@@ -132,3 +132,27 @@
   website: 'https://rosspenman.com'
   title: 'Programming with Sass'
   bio: "Ross is a web developer and Computer Science student at the University of Edinburgh. They maintain the popular Sass-Web-Fonts library, as well as the SassUnit testing framework. Ross was a finalist for Emerging Talent of the Year at the 2014 Net Awards, and has written for well-known web-related publications A List Apart and the Pastry Box Project. They also work to promote young people in tech, and helped to organise Hack the Burgh, a student hackathon hosted by the University of Edinburgh Computing Society."
+
+- name: 'Kevin Lorenz'
+  keynote: false
+  bio_image: 'speakers/kevin_lorenz@2x.jpg'
+  bio_image2: 'speakers/kevin_lorenz@2x.jpg'
+  individual_page: 'kevin'
+  image: 'speakers/kevin_lorenz@2x.jpg'
+  image2: 'speakers/kevin_lorenz@2x.jpg'
+  twitter: '@verpixelt'
+  website: ''
+  title: ''
+  bio: ""
+
+- name: 'Suzanne McCulley'
+  keynote: false
+  bio_image: 'team/suzanne.jpg'
+  bio_image2: 'team/suzanne.jpg'
+  individual_page: 'suzanne'
+  image: 'team/suzanne.jpg'
+  image2: 'team/suzanne.jpg'
+  twitter: '@uk_suzanne'
+  website: ''
+  title: ''
+  bio: ""
