@@ -8,7 +8,10 @@
 <a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker col-md-4 col-sm-6"><img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
   <div class="info">
     <h3>
-      <span aria-hidden="true">{{speaker.name}}</span>
+      <span aria-hidden="true">{{speaker.name}}</span><br/>
+      {% if speaker.extra_info %}
+        <small>{{speaker.extra_info}}</small><br/>
+      {% endif %}
       <small>{{speaker.twitter}}</small>
     </h3>
     <p></p>
