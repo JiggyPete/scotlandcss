@@ -26,6 +26,19 @@
       </div>
     </div>
     <h1>{{speaker.title}}</h1>
+    {% if speaker.abstract %}
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <p>
+                {{speaker.abstract}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
