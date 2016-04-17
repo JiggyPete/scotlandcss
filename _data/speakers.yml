@@ -44,10 +44,10 @@
   individual_page: 'david'
   image: 'speakers/david_berner.jpg'
   image2: 'speakers/david_berner@2x.jpg'
-  twitter: '@davislurve'
+  twitter: '@DaveOrDead'
   website: 'http://www.fedordead.com'
   title: 'Shedding light on the shadow dom'
-  bio: "David is a front-end developer from the UK who is currently working for Campaign Monitor. He has been coding since 1998 when spacer gifs and blink tags were still a thing. He is passionate about moving the web forward and writes about this (and all things front-end) over at fedordead.com. You can also follow him on Twitter @davislurve"
+  bio: "David is a front-end developer from the UK who is currently working for Campaign Monitor. He has been coding since 1998 when spacer gifs and blink tags were still a thing. He is passionate about moving the web forward and writes about this (and all things front-end) over at fedordead.com. You can also follow him on Twitter @DaveOrDead"
   abstract: "We have many problems that exist in current CSS architecture e.g encapsulation, dead code & specificity conflicts. I will explain how the shadow dom spec can help to solve them by using the pseduo selectors ::host, ::shadow & /deep/. I will also cover how to theme & style native elements."
 
 - name: 'Christoph Reinartz'
