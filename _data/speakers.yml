@@ -166,3 +166,14 @@
   website: ''
   title: ''
   bio: ""
+- name: 'Ian Burrett'
+  keynote: false
+  bio_image: 'team/ian.jpg'
+  bio_image2: 'team/ian.jpg'
+  individual_page: 'ian'
+  image: 'team/ian.jpg'
+  image2: 'team/ian.jpg'
+  twitter: '@burtware'
+  website: 'http://www.weestoater.com'
+  title: ''
+  bio: ""
