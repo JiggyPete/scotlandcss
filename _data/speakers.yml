@@ -1,15 +1,15 @@
-- name: 'Nicole Sullivan'
+- name: 'Chris Lilley'
   keynote: true
-  bio_image: 'speakers/nicole_sullivan.jpg'
-  bio_image2: 'speakers/nicole_sullivan@2x.jpg'
-  individual_page: 'nicole'
-  image: 'speakers/nicole_sullivan.jpg'
-  image2: 'speakers/nicole_sullivan@2x.jpg'
-  twitter: '@stubbornella'
-  github: 'stubbornella'
-  website: 'http://stubbornella.org'
+  bio_image: 'speakers/chris_lilley.jpg'
+  bio_image2: 'speakers/chris_lilley.jpg'
+  individual_page: 'chris'
+  image: 'speakers/chris_lilley.jpg'
+  image2: 'speakers/chris_lilley.jpg'
+  twitter: '@svgeesus'
+  github: 'svgeesus'
+  website: 'http://svgees.us'
   title: ''
-  bio: ""
+  bio: "Chris Lilley is a Technical Director at the World Wide Web Consortium (W3C). Considered “the father of SVG”, he also co-authored PNG, was co-editor of CSS2, chaired the group that developed @font-face, and co-developed WOFF. Ex Technical Architecture Group. Chris is still trying to get Color Management on the Web, sigh. Currently working on CSS levels 3/4/5 (no, really), Web Audio, and WOFF2."
 
 - name: 'Harry Roberts'
   keynote: true
