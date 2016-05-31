@@ -114,7 +114,7 @@
   website: 'https://umaar.com/'
   title: 'An A to Z of CSS'
   bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at Shazam and is also a Google Developer Expert for Chrome.<br/><br/>Using Chrome tooling such as the DevTools for an improved development workflow but also for debugging performance issues is an area which he plans to explore further and share information about to the community."
-  abstract: "This talk will cover a large number of interesting tools and techniques for CSS, in fact, one for each letter of the alphabet! You’ll learn interesting layout modes such as Grid Layout and recap on exactly what the Box Model is. For each tool, technique or property, we’ll see examples & use cases."
+  abstract: "This talk will give a brief overview of some lesser-known CSS tools & techniques. For example the features arriving in the Houdini specification, and improving perceived page performance with the font-display property. For such tools, techniques or properties, we’ll see some examples with possible use cases."
 
 - name: 'Katie Fenn'
   keynote: false
