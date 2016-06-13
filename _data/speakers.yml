@@ -72,6 +72,7 @@
   image2: 'speakers/james@2x.jpg'
   twitter: '@jdsteinbach'
   website: 'https://jdsteinbach.com'
+  slides: 'https://jdsteinbach.com/sassconf'
   title: 'Using Musical Scales to Build Harmonious Typography'
   bio: "I’m a Chicago native currently loving the mountains of Denver after a long sojourn in the Carolinas. When I’m not building websites, I love to read suspense/espionage fiction or watch comedy. Time with my wife Audrey & tiny daughter is always a delight, and I rarely say no to fantastic food & drink.<br/><br/>When I am building websites, I love developing clever animations: motion is one of the best ways to delight users and help them understand their interaction with content. I want to make content accessible to every user, so responsive design is a must. I also want to keep things organized for future me or future developers, so I’m using Sass to keep style code as clean and light as possible."
   abstract: ""
@@ -125,6 +126,7 @@
   image2: 'team/katie_fenn.jpg'
   twitter: '@katie_fenn'
   website: 'http://www.katiefenn.co.uk'
+  slides: 'https://slidr.io/katiefenn/writing-modular-stylesheets-with-css-modules-scotland-css-2016'
   title: 'Writing Modular Stylesheets with CSS Modules'
   bio: "Katie Fenn is a software engineer with ten years of experience working with JS, CSS and PHP. She is usually up far too late working on open source projects or playing videogames, and up far too early watching motorsport."
   abstract: "This talk introduces CSS Modules, a new, community-led specification for loading modular stylesheets. CSS Modules has the potential to revolutionise the way we write stylesheets, and make complex naming schemes and architectures a thing of the past."
