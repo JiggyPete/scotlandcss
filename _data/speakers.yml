@@ -1,4 +1,5 @@
 - name: 'Chris Lilley'
+  youtube: 'https://youtu.be/LcFbZUAxG_8'
   keynote: true
   bio_image: 'speakers/chris_lilley.jpg'
   bio_image2: 'speakers/chris_lilley.jpg'
@@ -8,10 +9,11 @@
   twitter: '@svgeesus'
   github: 'svgeesus'
   website: 'http://svgees.us'
-  title: ''
+  title: 'WebFonts: Level Up!'
   bio: "Chris Lilley is a Technical Director at the World Wide Web Consortium (W3C). Considered “the father of SVG”, he also co-authored PNG, was co-editor of CSS2, chaired the group that developed @font-face, and co-developed WOFF. Ex Technical Architecture Group. Chris is still trying to get Color Management on the Web, sigh. Currently working on CSS levels 3/4/5 (no, really), Web Audio, and WOFF2."
 
 - name: 'Harry Roberts'
+  youtube: 'https://www.youtube.com/watch?v=rLJNHgWbYOI'
   keynote: true
   bio_image: 'speakers/harry_roberts.jpg'
   bio_image2: 'speakers/harry_roberts@2x.jpg'
@@ -21,10 +23,11 @@
   twitter: '@csswizardry'
   github: 'csswizardry'
   website: 'http://csswizardry.com'
-  title: ''
+  title: 'CSS for Software Engineers for CSS Developers'
   bio: "With a client list including Google, the United Nations, and Unilever, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at csswizardry.com; develops and maintains inuitcss; authored CSS Guidelines; and Tweets at @csswizardry."
 
 - name: 'Natalya Shelburne'
+  youtube: 'https://youtu.be/-l0MuyR7amw'
   keynote: false
   bio_image: 'speakers/natalya_shelburne.jpg'
   bio_image2: 'speakers/natalya_shelburne@2x.jpg'
@@ -38,6 +41,7 @@
   abstract: "Stop picking colors at random! I abstracted my domain knowledge as a fine artist into variables and functions in order to reveal color selection as being logical, predictable, and driven by principles anyone can learn. Learn about wavelengths, old school fine art, and see practical code examples!"
 
 - name: 'David Berner'
+  youtube: 'https://youtu.be/7wSOoG_REKc'
   keynote: false
   bio_image: 'speakers/david_berner.jpg'
   bio_image2: 'speakers/david_berner@2x.jpg'
@@ -51,6 +55,7 @@
   abstract: "<p>We have many problems that exist in modern CSS architecture including a lack of  encapsulation, no facility to accurately remove dead code and of course, specificity conflicts. </p><p>I will explain how the Shadow Dom specification can help to solve them by crafting reusable components using various pseudo selectors and slots.  I'll also show you how to create an API for your components that consumers can access using CSS Custom Properties.</p>"
 
 - name: 'Christoph Reinartz'
+  youtube: 'https://youtu.be/6kSiDglCqkw'
   keynote: false
   bio_image: 'speakers/christoph_reinartz.png'
   bio_image2: 'speakers/christoph_reinartz@2x.png'
@@ -64,6 +69,7 @@
   abstract: "Project Ironman was the technical migration of the trivago hotel search’s existing CSS core to a pattern library based user interface. Backgrounds, insights, learnings and technical approaches of refactoring an existing CSS core of more than 50k lines of SCSS-Code on a large project."
 
 - name: 'James Steinbach'
+  youtube: 'https://youtu.be/_PGOlb2eKf0'
   keynote: false
   bio_image: 'speakers/james.jpg'
   bio_image2: 'speakers/james@2x.jpg'
@@ -78,6 +84,7 @@
   abstract: ""
 
 - name: 'Barak Chamo'
+  youtube: 'https://youtu.be/09GaScnXXVc'
   keynote: false
   bio_image: 'speakers/barak.png'
   bio_image2: 'speakers/barak.png'
@@ -92,6 +99,7 @@
   abstract: "Advanced features of CSS such as cal(), attr() and latest support for native variables makes it possible to create dynamic, reactive and parametric visual experiences in the browser.<br/>I’d like to share examples of dynamic generative art audio visualizations built with CSS and JavaScript."
 
 - name: 'Lewis Cowper'
+  youtube: 'https://youtu.be/wvsoI3_kXAY'
   keynote: false
   bio_image: 'speakers/lewis.jpg'
   bio_image2: 'speakers/lewis@2x.jpg'
@@ -105,6 +113,7 @@
   abstract: "For those new to the world of web dev, there’s a lot of magic that happens between getting Hello World into the browser and developing a modern web application. We make a lot of decisions on tooling and processes on new projects, but do we always consider what might provide teachable moments?"
 
 - name: 'Umar Hansa'
+  youtube: 'https://youtu.be/RfoDuM_XilE'
   keynote: false
   bio_image: 'speakers/umar_hansa.jpg'
   bio_image2: 'speakers/umar_hansa@2x.jpg'
@@ -118,6 +127,7 @@
   abstract: "This talk will give a brief overview of some lesser-known CSS tools & techniques. For example the features arriving in the Houdini specification, and improving perceived page performance with the font-display property. For such tools, techniques or properties, we’ll see some examples with possible use cases."
 
 - name: 'Katie Fenn'
+  youtube: 'https://youtu.be/LKY-BxF31aw'
   keynote: false
   bio_image: 'team/katie_fenn.jpg'
   bio_image2: 'team/katie_fenn.jpg'
@@ -131,17 +141,18 @@
   bio: "Katie Fenn is a software engineer with ten years of experience working with JS, CSS and PHP. She is usually up far too late working on open source projects or playing videogames, and up far too early watching motorsport."
   abstract: "This talk introduces CSS Modules, a new, community-led specification for loading modular stylesheets. CSS Modules has the potential to revolutionise the way we write stylesheets, and make complex naming schemes and architectures a thing of the past."
 
-- name: 'Ross Penman'
+- name: 'Alyssa Ross'
+  youtube: 'https://youtu.be/fOU0sA3zHkg'
   keynote: false
-  bio_image: 'speakers/ross.jpg'
-  bio_image2: 'speakers/ross.jpg'
-  individual_page: 'ross'
-  image: 'speakers/ross.jpg'
-  image2: 'speakers/ross.jpg'
-  twitter: '@PenmanRoss'
-  website: 'https://rosspenman.com'
+  bio_image: 'speakers/alyssa.jpg'
+  bio_image2: 'speakers/alyssa.jpg'
+  individual_page: 'alyssa'
+  image: 'speakers/alyssa.jpg'
+  image2: 'speakers/alyssa.jpg'
+  twitter: '@couldntmissher'
+  website: ''
   title: 'Programming with Sass'
-  bio: "Ross is a web developer and Computer Science student at the University of Edinburgh. They maintain the popular Sass-Web-Fonts library, as well as the SassUnit testing framework. Ross was a finalist for Emerging Talent of the Year at the 2014 Net Awards, and has written for well-known web-related publications A List Apart and the Pastry Box Project. They also work to promote young people in tech, and helped to organise Hack the Burgh, a student hackathon hosted by the University of Edinburgh Computing Society."
+  bio: "Alyssa is a web developer and Computer Science student at the University of Edinburgh. They maintain the popular Sass-Web-Fonts library, as well as the SassUnit testing framework. Ross was a finalist for Emerging Talent of the Year at the 2014 Net Awards, and has written for well-known web-related publications A List Apart and the Pastry Box Project. They also work to promote young people in tech, and helped to organise Hack the Burgh, a student hackathon hosted by the University of Edinburgh Computing Society."
   abstract: "Sass is more than a CSS preprocessor — it’s a very powerful programming language.<br/>But why would you want to use Sass as a programming language? How can programming with Sass make your life easier? What kind of programming can you do with Sass? How do you go about testing complex Sass code?"
 
 - name: 'Kevin Lorenz'
