@@ -5,15 +5,14 @@
 {% endfor %}
 
 
-<a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker col-md-4 col-sm-6"><img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
-  <div class="info">
-    <h3>
-      <span aria-hidden="true">{{speaker.name}}</span><br/>
-      <small>{{speaker.twitter}}</small><br/>
-      <span class="talk-title">{{speaker.title}}</span class="talk-title">
-    </h3>
-    <p></p>
-  </div>
+<a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker col-md-4 col-sm-6">
+  <img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
+  <h3 class="speaker-info">
+    <span aria-hidden="true">{{speaker.name}}</span><br/>
+    <small>{{speaker.twitter}}</small><br/>
+    <span class="talk-title">{{speaker.title}}</span><br/>
+    <span class="video-link">Video</span>
+  </h3>
 </a>
 
 <div tabindex="-1" role="dialog" id="{{speaker.individual_page}}" class="portfolio-modal modal fade">
