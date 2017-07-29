@@ -76,5 +76,8 @@ DEPENDENCIES
   rake
   sass
 
+RUBY VERSION
+   ruby 2.1.2p95
+
 BUNDLED WITH
-   1.11.2
+   1.15.3
