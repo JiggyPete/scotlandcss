@@ -1,192 +1,38 @@
-- name: 'Chris Lilley'
-  youtube: 'https://youtu.be/LcFbZUAxG_8'
-  keynote: true
-  bio_image: 'speakers/chris_lilley.jpg'
-  bio_image2: 'speakers/chris_lilley.jpg'
-  individual_page: 'chris'
-  image: 'speakers/chris_lilley.jpg'
-  image2: 'speakers/chris_lilley.jpg'
-  twitter: '@svgeesus'
-  github: 'svgeesus'
-  website: 'http://svgees.us'
-  title: 'WebFonts: Level Up!'
-  bio: "Chris Lilley is a Technical Director at the World Wide Web Consortium (W3C). Considered “the father of SVG”, he also co-authored PNG, was co-editor of CSS2, chaired the group that developed @font-face, and co-developed WOFF. Ex Technical Architecture Group. Chris is still trying to get Color Management on the Web, sigh. Currently working on CSS levels 3/4/5 (no, really), Web Audio, and WOFF2."
-
-- name: 'Harry Roberts'
-  youtube: 'https://www.youtube.com/watch?v=rLJNHgWbYOI'
-  keynote: true
-  bio_image: 'speakers/harry_roberts.jpg'
-  bio_image2: 'speakers/harry_roberts@2x.jpg'
-  individual_page: 'harry'
-  image: 'speakers/harry_roberts_thumb.jpg'
-  image2: 'speakers/harry_roberts_thumb@2x.jpg'
-  twitter: '@csswizardry'
-  github: 'csswizardry'
-  website: 'http://csswizardry.com'
-  title: 'CSS for Software Engineers for CSS Developers'
-  bio: "With a client list including Google, the United Nations, and Unilever, Harry is an award-winning Consultant Front-end Architect who helps organisations and teams across the globe to plan, build, and maintain product-scale UIs.<br/><br/>He writes on the subjects of CSS architecture, performance, and scalability at csswizardry.com; develops and maintains inuitcss; authored CSS Guidelines; and Tweets at @csswizardry."
-
-- name: 'Natalya Shelburne'
-  youtube: 'https://youtu.be/-l0MuyR7amw'
+- name: 'Rachel Andrew'
   keynote: false
-  bio_image: 'speakers/natalya_shelburne.jpg'
-  bio_image2: 'speakers/natalya_shelburne@2x.jpg'
-  individual_page: 'natalya'
-  image: 'speakers/natalya_shelburne_thumb.jpg'
-  image2: 'speakers/natalya_shelburne_thumb@2x.jpg'
-  twitter: '@natalyathree'
-  website: 'https://medium.com/@tallys'
-  title: 'Practical Color Theory for People Who Code'
-  bio: "Natalya Shelburne is a classically trained fine artist who spent 6 years lecturing and teaching people how to paint, draw, and grow their creativity. Upon realizing that the Renaissance had in fact already ended, she decided to join the modern world and is now a front end developer.<br/><br/>Natalya works to blur the line between designer and developer by sharing and updating old school design theory for the web. Crossing domains is a passion - in addition to a degree in Studio Art, she has a bachelor’s in Developmental Psychology and a master’s degree in Creativity and Talent Development, and works to weave interesting facts about how our brains work, learn, and develop into every talk.<br/><br/>When she is not writing code, she is drawing, cooking, traveling, or drinking absurd amounts of coffee."
-  abstract: "Stop picking colors at random! I abstracted my domain knowledge as a fine artist into variables and functions in order to reveal color selection as being logical, predictable, and driven by principles anyone can learn. Learn about wavelengths, old school fine art, and see practical code examples!"
-
-- name: 'David Berner'
-  youtube: 'https://youtu.be/7wSOoG_REKc'
-  keynote: false
-  bio_image: 'speakers/david_berner.jpg'
-  bio_image2: 'speakers/david_berner@2x.jpg'
-  individual_page: 'david'
-  image: 'speakers/david_berner.jpg'
-  image2: 'speakers/david_berner@2x.jpg'
-  twitter: '@DaveOrDead'
-  website: 'http://www.fedordead.com'
-  title: 'Shedding light on the shadow dom'
-  bio: "David is a front-end developer from the UK who is currently working for Campaign Monitor. He has been coding since 1998 when spacer gifs and blink tags were still a thing. He is passionate about moving the web forward and writes about this (and all things front-end) over at fedordead.com. You can also follow him on Twitter @DaveOrDead"
-  abstract: "<p>We have many problems that exist in modern CSS architecture including a lack of  encapsulation, no facility to accurately remove dead code and of course, specificity conflicts. </p><p>I will explain how the Shadow Dom specification can help to solve them by crafting reusable components using various pseudo selectors and slots.  I'll also show you how to create an API for your components that consumers can access using CSS Custom Properties.</p>"
-
-- name: 'Christoph Reinartz'
-  youtube: 'https://youtu.be/6kSiDglCqkw'
-  keynote: false
-  bio_image: 'speakers/christoph_reinartz.png'
-  bio_image2: 'speakers/christoph_reinartz@2x.png'
-  individual_page: 'christoph'
-  image: 'speakers/christoph_reinartz.png'
-  image2: 'speakers/christoph_reinartz@2x.png'
-  twitter: '@pistenprinz'
-  website: 'http://www.creinartz.de'
-  title: 'Large Scale CSS Refactoring'
-  bio: "UX Engineer & Frontend Architect, Fullstack CSS Developer & Team Lead UI/UX Engineering @trivago - coffee, code, be happy, repeat"
-  abstract: "Project Ironman was the technical migration of the trivago hotel search’s existing CSS core to a pattern library based user interface. Backgrounds, insights, learnings and technical approaches of refactoring an existing CSS core of more than 50k lines of SCSS-Code on a large project."
-
-- name: 'James Steinbach'
-  youtube: 'https://youtu.be/_PGOlb2eKf0'
-  keynote: false
-  bio_image: 'speakers/james.jpg'
-  bio_image2: 'speakers/james@2x.jpg'
-  individual_page: 'james'
-  image: 'speakers/james.jpg'
-  image2: 'speakers/james@2x.jpg'
-  twitter: '@jdsteinbach'
-  website: 'https://jdsteinbach.com'
-  slides: 'https://jdsteinbach.com/sassconf'
-  title: 'Using Musical Scales to Build Harmonious Typography'
-  bio: "I’m a Chicago native currently loving the mountains of Denver after a long sojourn in the Carolinas. When I’m not building websites, I love to read suspense/espionage fiction or watch comedy. Time with my wife Audrey & tiny daughter is always a delight, and I rarely say no to fantastic food & drink.<br/><br/>When I am building websites, I love developing clever animations: motion is one of the best ways to delight users and help them understand their interaction with content. I want to make content accessible to every user, so responsive design is a must. I also want to keep things organized for future me or future developers, so I’m using Sass to keep style code as clean and light as possible."
+  bio_image: 'speakers/rachelandrew.jpg'
+  bio_image2: 'speakers/rachelandrew.jpg'
+  individual_page: 'rachelandrew'
+  image: 'speakers/rachelandrew.jpg'
+  image2: 'speakers/rachelandrew.jpg'
+  twitter: '@rachelandrew'
+  website: "https://rachelandrew.co.uk"
+  title:
+  bio: "Rachel Andrew is a front and back-end web developer, author and speaker. Author or co-author of 22 <a href='https://rachelandrew.co.uk/books'>books</a> including <a href='https://abookapart.com/products/the-new-css-layout'>The New CSS Layout</a> and a regular contributor to a number of publications both on and offline. Rachel is co-founder of the CMS <a href='http://grabaperch.com/'>Perch</a>, a Google Developer Expert and an Invited Expert to the CSS Working Group. She writes about business and technology on her own site at <a href='http://rachelandrew.co.uk/'>rachelandrew.co.uk</a>."
   abstract: ""
 
-- name: 'Barak Chamo'
-  youtube: 'https://youtu.be/09GaScnXXVc'
+- name: 'Rachel Nabors'
   keynote: false
-  bio_image: 'speakers/barak.png'
-  bio_image2: 'speakers/barak.png'
-  individual_page: 'barak'
-  image: 'speakers/barak.png'
-  image2: 'speakers/barak.png'
-  twitter: '@barakchamo'
-  website: 'http://github.com/barakchamo'
-  github: 'barakchamo'
-  title: 'Generative Art with CSS'
-  bio: "Hi, I’m Barak<br/><br/>I’m a London-based software developer, creative coder, entrepreneur, musician and a bunch of other things :)<br/><br/>Formerly an engineer for Staance, Ometria, CoolaData and others, I’ve worked with startups around the world focusing on developing meaningful user experiences, insightful data visualizations and innovative products. I’m mostly self taught and such, I constantly seek to learn and experience new things.<br/><br/>As a creative maker I enjoy messing around in the space between art and technology. I recently returned from the Recurse Center in NY where I explored Audiovisual software, IoT, game development and other creative coding pursuits.<br/><br/>I’m excited by new technology, love exploring it and talking about it :)"
-  abstract: "Advanced features of CSS such as cal(), attr() and latest support for native variables makes it possible to create dynamic, reactive and parametric visual experiences in the browser.<br/>I’d like to share examples of dynamic generative art audio visualizations built with CSS and JavaScript."
+  bio_image: 'speakers/rachelnabors2.jpg'
+  bio_image2: 'speakers/rachelnabors2.jpg'
+  individual_page: 'rachelnabors'
+  image: 'speakers/rachelnabors2.jpg'
+  image2: 'speakers/rachelnabors2.jpg'
+  twitter: '@rachelnabors'
+  website: 'http://rachelnabors.com/'
+  title:
+  bio: "<a href='http://rachelnabors.com'>Rachel Nabors</a> began telling stories online as a teenager with her award-winning <a href='http://www.rachelthegreat.com/'>web comics</a>. Her love of web technologies transformed into a career in front end development, where she has worked with Mozilla, the W3C, and Microsoft to build the web forward. She recently launched <a href='http://bkaprt.com/animationatwork'>Animation at Work</a>, an A Book Apart book: on using animation in web and app design."
+  abstract: ""
 
-- name: 'Lewis Cowper'
-  youtube: 'https://youtu.be/wvsoI3_kXAY'
+- name: 'Sareh Heidari'
   keynote: false
-  bio_image: 'speakers/lewis.jpg'
-  bio_image2: 'speakers/lewis@2x.jpg'
-  individual_page: 'lewis'
-  image: 'speakers/lewis.jpg'
-  image2: 'speakers/lewis@2x.jpg'
-  twitter: '@lewiscowper'
-  website: 'http://hi.lewis.red'
-  title: 'Approachable projects on the web of 2016'
-  bio: "Lewis builds bits of JavaScript and ties it all together into web apps at HitFox Group in Berlin, Germany. He enjoys modular architectures, swiss design, and teaching and learning about new bits of the web.<br/><br/>Outside of programming, he enjoys learning about, and looking at animals of all kinds (a lot of them are red pandas), learning about deconstructing films, and exploring new places."
-  abstract: "For those new to the world of web dev, there’s a lot of magic that happens between getting Hello World into the browser and developing a modern web application. We make a lot of decisions on tooling and processes on new projects, but do we always consider what might provide teachable moments?"
-
-- name: 'Umar Hansa'
-  youtube: 'https://youtu.be/RfoDuM_XilE'
-  keynote: false
-  bio_image: 'speakers/umar_hansa.jpg'
-  bio_image2: 'speakers/umar_hansa@2x.jpg'
-  individual_page: 'umar'
-  image: 'speakers/umar_hansa.jpg'
-  image2: 'speakers/umar_hansa@2x.jpg'
-  twitter: '@umaar'
-  website: 'https://umaar.com/'
-  title: 'An A to Z of CSS'
-  bio: "Umar Hansa is a web developer based in London who has a focus on writing tips, tutorials and documentation for the web platform. He’s a web developer at Shazam and is also a Google Developer Expert for Chrome.<br/><br/>Using Chrome tooling such as the DevTools for an improved development workflow but also for debugging performance issues is an area which he plans to explore further and share information about to the community."
-  abstract: "This talk will give a brief overview of some lesser-known CSS tools & techniques. For example the features arriving in the Houdini specification, and improving perceived page performance with the font-display property. For such tools, techniques or properties, we’ll see some examples with possible use cases."
-
-- name: 'Katie Fenn'
-  youtube: 'https://youtu.be/LKY-BxF31aw'
-  keynote: false
-  bio_image: 'team/katie_fenn.jpg'
-  bio_image2: 'team/katie_fenn.jpg'
-  individual_page: 'katie'
-  image: 'team/katie_fenn.jpg'
-  image2: 'team/katie_fenn.jpg'
-  twitter: '@katie_fenn'
-  website: 'http://www.katiefenn.co.uk'
-  slides: 'https://slidr.io/katiefenn/writing-modular-stylesheets-with-css-modules-scotland-css-2016'
-  title: 'Writing Modular Stylesheets with CSS Modules'
-  bio: "Katie Fenn is a software engineer with ten years of experience working with JS, CSS and PHP. She is usually up far too late working on open source projects or playing videogames, and up far too early watching motorsport."
-  abstract: "This talk introduces CSS Modules, a new, community-led specification for loading modular stylesheets. CSS Modules has the potential to revolutionise the way we write stylesheets, and make complex naming schemes and architectures a thing of the past."
-
-- name: 'Alyssa Ross'
-  youtube: 'https://youtu.be/fOU0sA3zHkg'
-  keynote: false
-  bio_image: 'speakers/alyssa.jpg'
-  bio_image2: 'speakers/alyssa.jpg'
-  individual_page: 'alyssa'
-  image: 'speakers/alyssa.jpg'
-  image2: 'speakers/alyssa.jpg'
-  twitter: '@couldntmissher'
-  website: ''
-  title: 'Programming with Sass'
-  bio: "Alyssa is a web developer and Computer Science student at the University of Edinburgh. They maintain the popular Sass-Web-Fonts library, as well as the SassUnit testing framework. Ross was a finalist for Emerging Talent of the Year at the 2014 Net Awards, and has written for well-known web-related publications A List Apart and the Pastry Box Project. They also work to promote young people in tech, and helped to organise Hack the Burgh, a student hackathon hosted by the University of Edinburgh Computing Society."
-  abstract: "Sass is more than a CSS preprocessor — it’s a very powerful programming language.<br/>But why would you want to use Sass as a programming language? How can programming with Sass make your life easier? What kind of programming can you do with Sass? How do you go about testing complex Sass code?"
-
-- name: 'Kevin Lorenz'
-  extra_info: 'Lead Coach'
-  keynote: false
-  bio_image: 'speakers/kevin_lorenz@2x.jpg'
-  bio_image2: 'speakers/kevin_lorenz@2x.jpg'
-  individual_page: 'kevin'
-  image: 'speakers/kevin_lorenz@2x.jpg'
-  image2: 'speakers/kevin_lorenz@2x.jpg'
-  twitter: '@verpixelt'
-  website: ''
-  title: ''
+  bio_image: 'speakers/sareh.jpg'
+  bio_image2: 'speakers/sareh.jpg'
+  individual_page: 'sareh'
+  image: 'speakers/sareh.jpg'
+  image2: 'speakers/sareh.jpg'
+  twitter: '@sareh88'
+  website:
+  title:
   bio: ""
-
-- name: 'Suzanne McCulley'
-  keynote: false
-  bio_image: 'team/suzanne.jpg'
-  bio_image2: 'team/suzanne.jpg'
-  individual_page: 'suzanne'
-  image: 'team/suzanne.jpg'
-  image2: 'team/suzanne.jpg'
-  twitter: '@uk_suzanne'
-  website: ''
-  title: ''
-  bio: ""
-- name: 'Ian Burrett'
-  keynote: false
-  bio_image: 'team/ian.jpg'
-  bio_image2: 'team/ian.jpg'
-  individual_page: 'ian'
-  image: 'team/ian.jpg'
-  image2: 'team/ian.jpg'
-  twitter: '@burtware'
-  website: 'http://www.weestoater.com'
-  title: ''
-  bio: ""
+  abstract: ""

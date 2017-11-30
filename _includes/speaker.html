@@ -10,8 +10,10 @@
   <h3 class="speaker-info">
     <span aria-hidden="true">{{speaker.name}}</span><br/>
     <small>{{speaker.twitter}}</small><br/>
-    <span class="talk-title">{{speaker.title}}</span><br/>
-    <span class="video-link">Video</span>
+    <span class="talk-title"></span><br/>
+    <span class="video-link">&nbsp;</span>
+    <!-- <span class="talk-title">{{speaker.title}}</span><br/> -->
+    <!-- <span class="video-link">Video</span> -->
   </h3>
 </a>
 
@@ -23,7 +25,7 @@
       </div>
     </div>
     <h1 class="modal--talk-title">{{speaker.title}}</h1>
-    <a href="{{speaker.youtube}}"><h3 class="modal--talk-title">Video</h3></a>
+    <!-- <a href="{{speaker.youtube}}"><h3 class="modal--talk-title">Video</h3></a> -->
     {% if speaker.abstract %}
       <div class="container">
         <div class="row">
