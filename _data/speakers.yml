@@ -1,3 +1,108 @@
+- name: 'Adekunle Oduye'
+  keynote: false
+  bio_image: 'speakers/adekunle.jpg'
+  bio_image2: 'speakers/adekunle.jpg'
+  individual_page: 'adekunleoduye'
+  image: 'speakers/adekunle.jpg'
+  image2: 'speakers/adekunle.jpg'
+  twitter: '@adekunleoduye'
+  website: http://www.adekunleoduye.com/
+  title: "Code at the Center: Front-end Prototype for great experiences"
+  bio: "Adekunle Oduye (Add-eh-koon-lay Oh-due-yay) is a Product Designer at <a href='https://justworks.com/'>Justworks</a> where he is building HR tools for small businesses. He enjoys driving innovation in design systems, data visualization and UI animation. When he isn't building software, you can probably find him planning his next travel adventures or learning more about personal finance."
+  abstract: "Wireframes and mockups often fail to demonstrate the actual experience of a product. More often than not, the final product doesn't look anything like the mockups we created. So without using the latest design tool, are there ways to design quickly & work with others? Enter the front-end prototype!"
+
+- name: 'Anna Migas'
+  keynote: false
+  bio_image: 'speakers/annamigas.jpg'
+  bio_image2: 'speakers/annamigas.jpg'
+  individual_page: 'annamigas'
+  image: 'speakers/annamigas.jpg'
+  image2: 'speakers/annamigas.jpg'
+  twitter: '@szynszyliszys'
+  website:
+  title: "Fast but not furious: debugging user interaction performance issues."
+  bio: Anna works as a Front-end Developer and Designer at Lunar Logic, the no-management company based in Kraków, Poland. She is always trying to find ways to make people fall in love with coding and has a long history of organizing coding workshops for WebMuses and Rails Girls. In her spare time she is skateboarding, travelling and reading sci-fi and fantasy books.
+  abstract: "Perceived performance is not only about fast page loads and delivering the content as early as possible. It is also about all the interactions happening on an already loaded page. Understanding what happens under the browser’s hood can help you avoid potential performance issues."
+
+- name: 'Eli Fitch'
+  keynote: false
+  bio_image: 'speakers/elifitch.jpg'
+  bio_image2: 'speakers/elifitch.jpg'
+  individual_page: 'elifitch'
+  image: 'speakers/elifitch.jpg'
+  image2: 'speakers/elifitch.jpg'
+  twitter: '@elifitch'
+  website: http://eli.wtf
+  title: "Functional CSS at Scale: Clean & composable UI on a massive app"
+  bio: Eli Fitch is a front end developer with a passion for web performance, animation and all things 3D. He works on creative tools to design expressive maps at Mapbox, a startup in his hometown of Washington, DC. He also organizes the DC CodePen Meetup, and dabbles in design, 3D art & game development.  When not sat in front of a computer, he restores his perpetually broken stable of 70s motorcycles and attempts to keep his historic row-house from collapsing in on itself like a dying star.
+  abstract: "We’ve all been there: the point when an app outgrows its CSS system, and things fall apart. Functional CSS, a set of tiny classes composed to make fully styled components, saved Mapbox's furiously complex map design app from this fate. Come hear why we love functional CSS, and why you might too."
+
+- name: '𝑱𝒆𝒏 𝑺𝒕𝒓𝒊𝒄𝒌𝒍𝒂𝒏𝒅'
+  keynote: false
+  bio_image: 'speakers/and_you_thumb.jpg'
+  bio_image2: 'speakers/and_you_thumb.jpg'
+  individual_page: '𝑱𝒆𝒏𝑺𝒕𝒓𝒊𝒄𝒌𝒍𝒂𝒏𝒅'
+  image: 'speakers/and_you_thumb.jpg'
+  image2: 'speakers/and_you_thumb.jpg'
+  twitter: '@inkpixelspaper'
+  website: https://jenstrickland.design
+  title: You’re Killing Your Users!
+  bio: Straight from the DIY punk world, influenced by CRASS and Fugazi, Jen brings the same passion, integrity, and creativity to 25 years of experience as a creative professional, with expertise in research, visual design, information architecture, product design, front-end development, web performance, responsive web design, and accessibility.
+  abstract: "See how people die when you add that trendy background video, gorgeous image, another font, or another bit of JavaScript. <br/>Design & development decisions have very real consequences for people using your site/app. Using real world examples, paired with current data, know how to be a real lifesaver!"
+
+- name: 'Natalya Shelburne'
+  keynote: false
+  keynote: false
+  bio_image: 'speakers/natalya_shelburne.jpg'
+  bio_image2: 'speakers/natalya_shelburne@2x.jpg'
+  individual_page: 'natalya'
+  image: 'speakers/natalya_shelburne_thumb.jpg'
+  image2: 'speakers/natalya_shelburne_thumb@2x.jpg'
+  twitter: '@natalyathree'
+  website: 'https://medium.com/@tallys'
+  title: 'From Bootstrap to CSS Grid: Move Forward Without Breaking Anything!'
+  bio: Natalya Shelburne is a developer, designer, educator, speaker, and occasional sketch note artist. She is a software engineer at The New York Times and an instructor at Harvard Extension School. In her previous career, she was the Creative Development Director at a non-profit school where she led a team of artists, founded a community art education program, and taught people how to paint, draw, and grow their creativity. Crossing disciplines and building bridges between design and development is at the foundation of much of her work.<br/>Natalya took the scenic route to software engineering - she has bachelor's degrees in Developmental Psychology and Studio Art, and a master's degree in Creativity and Talent Development. Her favorite topics include all things CSS, design systems, modular components, React, color theory, mentorship, leadership, and coffee.
+  abstract: "Don’t let still being on a float based layout (like Bootstrap) stop you from using CSS Grid. Learn how the power of CSS combined with feature queries allow you to declare display: grid with confidence on any project. Finally, you can get excited about designing for web again!"
+
+- name: 'Nico Hagenburger'
+  keynote: false
+  bio_image: 'speakers/nico.jpg'
+  bio_image2: 'speakers/nico.jpg'
+  individual_page: 'nicohagenburger'
+  image: 'speakers/nico.jpg'
+  image2: 'speakers/nico.jpg'
+  twitter: '@hagenburger'
+  website: http://www.hagenburger.net
+  title: From front-end developer to typeface designer
+  bio: I’m a front-end developer with a strong love for typographical details. My projects span from large, maintainable code bases, Sass, design systems and style guides, designing in the browser as well as with Sketch.app. Whenever I find a way to automize things, to create an open-source solution, like the LivingStyleGuide Gem. I’ve been co-organizing Eurucamp and the Berlin Ruby User Group. Now I spend all my free time designing my own typeface.
+  abstract: "I’m addicted to typography. It started with a designing few characters for some signs a few years ago and since then it taken on a life of its own. One off projects are fun, but I wanted to create something bigger: a complete typeface. My talk will get you as excited about typefaces too."
+
+- name: 'Olivia Liddell'
+  keynote: false
+  bio_image: 'speakers/olivia-liddell.jpg'
+  bio_image2: 'speakers/olivia-liddell.jpg'
+  individual_page: 'olivialiddell'
+  image: 'speakers/olivia-liddell.jpg'
+  image2: 'speakers/olivia-liddell.jpg'
+  twitter:
+  website:
+  title: Overcoming Your Fear of Failure
+  bio: Olivia Liddell is a Learning Technologist at Wiley, where she builds and maintains online courses for various universities. Previously, she taught middle school Arabic in Chicago Public Schools (as-salaamu 'alaykum!). Olivia is passionate about integrating technology into education and enjoys teaching people new things. Olivia holds a B.A. in Anthropology from New York University and an M.A. in Middle Eastern Studies from the University of Chicago.
+  abstract: "Have you ever been too afraid to try for an opportunity because you feared that you wouldn’t get it? In this talk, you’ll learn more about some of the causes of fear of failure, along with clear strategies that you can use to overcome it and advance within your tech career."
+
+- name: 'Peter Müller'
+  keynote: false
+  bio_image: 'speakers/peter.jpg'
+  bio_image2: 'speakers/peter.jpg'
+  individual_page: 'petermuller'
+  image: 'speakers/peter.jpg'
+  image2: 'speakers/peter.jpg'
+  twitter: '@_munter_'
+  website: https://mntr.dk
+  title: High Performance Web Fonts
+  bio: 'Peter has a deep passion for the web and all its potentials. In his work he is a constant advocate for the end user and seeks holistic solutions that can play on all tangents from accessibility and user experience to hard core performance and tooling automation. During his 15-year frontend career he fell in love with open source and build tool automation. Two questions continue to drive him to seek out new frontiers: "Can it be simpler?" and "Can it be automated?"'
+  abstract: "Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both"
+
 - name: 'Rachel Andrew'
   keynote: false
   bio_image: 'speakers/rachelandrew.jpg'
@@ -7,7 +112,7 @@
   image2: 'speakers/rachelandrew.jpg'
   twitter: '@rachelandrew'
   website: "https://rachelandrew.co.uk"
-  title:
+  title: Unlocking the power of CSS Grid Layout
   bio: "Rachel Andrew is a front and back-end web developer, author and speaker. Author or co-author of 22 <a href='https://rachelandrew.co.uk/books'>books</a> including <a href='https://abookapart.com/products/the-new-css-layout'>The New CSS Layout</a> and a regular contributor to a number of publications both on and offline. Rachel is co-founder of the CMS <a href='http://grabaperch.com/'>Perch</a>, a Google Developer Expert and an Invited Expert to the CSS Working Group. She writes about business and technology on her own site at <a href='http://rachelandrew.co.uk/'>rachelandrew.co.uk</a>."
   abstract: ""
 
@@ -35,4 +140,17 @@
   website:
   title:
   bio: "Sareh is a web developer at BBC News. She cares about web accessibility,  performance and their impact on the user experience. She loves that she gets to think about these things as a full-time job. 😁 <br/><br/>Sareh enjoys practicing traditional calligraphy ✍️, reading speculative fiction 📚 and walking round the streets of London, where she lives."
+  abstract: ""
+
+- name: 'a'
+  keynote: false
+  bio_image: 'speakers/sareh.jpg'
+  bio_image2: 'speakers/sareh.jpg'
+  individual_page: ''
+  image: 'speakers/sareh.jpg'
+  image2: 'speakers/sareh.jpg'
+  twitter: ''
+  website:
+  title:
+  bio:
   abstract: ""
