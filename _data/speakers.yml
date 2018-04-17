@@ -37,7 +37,7 @@
   bio: Eli Fitch is a front end developer with a passion for web performance, animation and all things 3D. He works on creative tools to design expressive maps at Mapbox, a startup in his hometown of Washington, DC. He also organizes the DC CodePen Meetup, and dabbles in design, 3D art & game development.  When not sat in front of a computer, he restores his perpetually broken stable of 70s motorcycles and attempts to keep his historic row-house from collapsing in on itself like a dying star.
   abstract: "We’ve all been there: the point when an app outgrows its CSS system, and things fall apart. Functional CSS, a set of tiny classes composed to make fully styled components, saved Mapbox's furiously complex map design app from this fate. Come hear why we love functional CSS, and why you might too."
 
-- name: '𝑱𝒆𝒏 𝑺𝒕𝒓𝒊𝒄𝒌𝒍𝒂𝒏𝒅'
+- name: 'Jen Strickland'
   keynote: false
   bio_image: 'speakers/and_you_thumb.jpg'
   bio_image2: 'speakers/and_you_thumb.jpg'
