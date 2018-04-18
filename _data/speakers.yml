@@ -39,11 +39,11 @@
 
 - name: 'Jen Strickland'
   keynote: false
-  bio_image: 'speakers/and_you_thumb.jpg'
-  bio_image2: 'speakers/and_you_thumb.jpg'
-  individual_page: '𝑱𝒆𝒏𝑺𝒕𝒓𝒊𝒄𝒌𝒍𝒂𝒏𝒅'
-  image: 'speakers/and_you_thumb.jpg'
-  image2: 'speakers/and_you_thumb.jpg'
+  bio_image: 'speakers/jen-strickland.jpg'
+  bio_image2: 'speakers/jen-strickland.jpg'
+  individual_page: 'JenStrickland'
+  image: 'speakers/jen-strickland.jpg'
+  image2: 'speakers/jen-strickland.jpg'
   twitter: '@inkpixelspaper'
   website: https://jenstrickland.design
   title: You’re Killing Your Users!
