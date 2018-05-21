@@ -129,15 +129,15 @@
   bio: "Sareh is a web developer at BBC News. She cares about web accessibility,  performance and their impact on the user experience. She loves that she gets to think about these things as a full-time job. 😁 <br/><br/>Sareh enjoys practicing traditional calligraphy ✍️, reading speculative fiction 📚 and walking round the streets of London, where she lives."
   abstract: ""
 
-- name: 'a'
+- name: 'Steven Roberts'
   keynote: false
-  bio_image: 'speakers/sareh.jpg'
-  bio_image2: 'speakers/sareh.jpg'
-  individual_page: ''
-  image: 'speakers/sareh.jpg'
-  image2: 'speakers/sareh.jpg'
-  twitter: ''
-  website:
-  title:
-  bio:
-  abstract: ""
+  bio_image: 'speakers/steven-roberts.jpg'
+  bio_image2: 'speakers/steven-roberts.jpg'
+  individual_page: 'steven-roberts'
+  image: 'speakers/steven-roberts.jpg'
+  image2: 'speakers/steven-roberts.jpg'
+  twitter: '@matchboxhero10'
+  website: 'https://codepen.io/matchboxhero/'
+  title: 'CSS Animation - Best of the web'
+  bio: "Steven is a Frontend Designer and Developer from Teesside, England. He’s spent the last 10 years building the web while working for a number of SMEs and agencies in the North East of England.<br/><br/>Steven has a passion for design and the web in particular, he spends much of his time experimenting with upcoming technologies. He has wrote a number of articles, features and tutorials featured in Web Designer Mag over the last year covering a number of frontend topics such as CSS Grid, Flexbox, Responsive Typography, CSS Animation and SVG.<br/><br/>In recent months Steven has been concentrating on SVG Animation and produced a number of examples and experiments over on CodePen."
+  abstract: "See just how far you can go with animation on the web using just CSS as the animation tooling. From blowing bubbles to flying birds CSS really is a powerhouse when it comes to animation. When coupled with SVG the possibilities are even greater."
