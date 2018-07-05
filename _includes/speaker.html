@@ -7,12 +7,18 @@
 
 <a href="#{{speaker.individual_page}}" data-toggle="modal" class="speaker col-md-4 col-sm-6">
   <img src={{ speaker.image | asset_path }} srcset={{ speaker.image2 | asset_path }} alt="{{speaker.name}}" width="150" height="150"/>
-  <h3 class="speaker-info" style="width: 17em">
+  <h3 class="speaker-info" style="width: 20em">
     <span aria-hidden="true">{{speaker.name}}</span><br/>
     <small>{{speaker.twitter}}</small><br/>
     <span class="talk-title">{{speaker.title}}</span><br/>
     <!-- <span class="video-link">&nbsp;</span> -->
     <!-- <span class="video-link">Video</span> -->
+
+    {% if speaker.content_warning %}
+      <br/>
+      <span class="content-warning">Warning: {{speaker.content_warning}}</span>
+    {% endif %}
+
   </h3>
 </a>
 

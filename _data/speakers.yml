@@ -23,6 +23,7 @@
   title: "Fast but not furious: debugging user interaction performance issues."
   bio: Anna works as a Front-end Developer and Designer at Lunar Logic, the no-management company based in Kraków, Poland. She is always trying to find ways to make people fall in love with coding and has a long history of organizing coding workshops for WebMuses and Rails Girls. In her spare time she is skateboarding, travelling and reading sci-fi and fantasy books.
   abstract: "Perceived performance is not only about fast page loads and delivering the content as early as possible. It is also about all the interactions happening on an already loaded page. Understanding what happens under the browser’s hood can help you avoid potential performance issues."
+  content_warning: "Flashing Animation"
 
 - name: 'Eli Fitch'
   keynote: false
@@ -36,6 +37,7 @@
   title: "Functional CSS at Scale: Clean & composable UI on a massive app"
   bio: Eli Fitch is a front end developer with a passion for web performance, animation and all things 3D. He works on creative tools to design expressive maps at Mapbox, a startup in his hometown of Washington, DC. He also organizes the DC CodePen Meetup, and dabbles in design, 3D art & game development.  When not sat in front of a computer, he restores his perpetually broken stable of 70s motorcycles and attempts to keep his historic row-house from collapsing in on itself like a dying star.
   abstract: "We’ve all been there: the point when an app outgrows its CSS system, and things fall apart. Functional CSS, a set of tiny classes composed to make fully styled components, saved Mapbox's furiously complex map design app from this fate. Come hear why we love functional CSS, and why you might too."
+  content_warning: "Animation"
 
 - name: 'Natalya Shelburne'
   keynote: false
@@ -63,6 +65,7 @@
   title: From front-end developer to typeface designer
   bio: I’m a front-end developer with a strong love for typographical details. My projects span from large, maintainable code bases, Sass, design systems and style guides, designing in the browser as well as with Sketch.app. Whenever I find a way to automize things, to create an open-source solution, like the LivingStyleGuide Gem. I’ve been co-organizing Eurucamp and the Berlin Ruby User Group. Now I spend all my free time designing my own typeface.
   abstract: "I’m addicted to typography. It started with a designing few characters for some signs a few years ago and since then it taken on a life of its own. One off projects are fun, but I wanted to create something bigger: a complete typeface. My talk will get you as excited about typefaces too."
+  content_warning: "Animation"
 
 - name: 'Olivia Liddell'
   keynote: false
@@ -141,3 +144,4 @@
   title: 'CSS Animation - Best of the web'
   bio: "Steven is a Frontend Designer and Developer from Teesside, England. He’s spent the last 10 years building the web while working for a number of SMEs and agencies in the North East of England.<br/><br/>Steven has a passion for design and the web in particular, he spends much of his time experimenting with upcoming technologies. He has wrote a number of articles, features and tutorials featured in Web Designer Mag over the last year covering a number of frontend topics such as CSS Grid, Flexbox, Responsive Typography, CSS Animation and SVG.<br/><br/>In recent months Steven has been concentrating on SVG Animation and produced a number of examples and experiments over on CodePen."
   abstract: "See just how far you can go with animation on the web using just CSS as the animation tooling. From blowing bubbles to flying birds CSS really is a powerhouse when it comes to animation. When coupled with SVG the possibilities are even greater."
+  content_warning: "Flashing Animation"
