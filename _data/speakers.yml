@@ -1,4 +1,5 @@
 - name: 'Adekunle Oduye'
+  youtube: 'https://youtu.be/KTDVaIoGDVU'
   keynote: false
   bio_image: 'speakers/adekunle.jpg'
   bio_image2: 'speakers/adekunle.jpg'
@@ -12,6 +13,7 @@
   abstract: "Wireframes and mockups often fail to demonstrate the actual experience of a product. More often than not, the final product doesn't look anything like the mockups we created. So without using the latest design tool, are there ways to design quickly & work with others? Enter the front-end prototype!"
 
 - name: 'Anna Migas'
+  youtube: 'https://youtu.be/FmpNNw1Jjwk'
   keynote: false
   bio_image: 'speakers/annamigas.jpg'
   bio_image2: 'speakers/annamigas.jpg'
@@ -26,6 +28,7 @@
   content_warning: "Flashing Animation"
 
 - name: 'Eli Fitch'
+  youtube: 'https://youtu.be/uHVqbCPnOwU'
   keynote: false
   bio_image: 'speakers/elifitch.jpg'
   bio_image2: 'speakers/elifitch.jpg'
@@ -40,6 +43,7 @@
   content_warning: "Animation"
 
 - name: 'Natalya Shelburne'
+  youtube: 'https://youtu.be/L-d3PZSswIg'
   keynote: false
   keynote: false
   bio_image: 'speakers/natalya_shelburne.jpg'
@@ -54,6 +58,7 @@
   abstract: "Don’t let still being on a float based layout (like Bootstrap) stop you from using CSS Grid. Learn how the power of CSS combined with feature queries allow you to declare display: grid with confidence on any project. Finally, you can get excited about designing for web again!"
 
 - name: 'Nico Hagenburger'
+  youtube: 'https://youtu.be/52cjFZU9vhE'
   keynote: false
   bio_image: 'speakers/nico.jpg'
   bio_image2: 'speakers/nico.jpg'
@@ -68,6 +73,7 @@
   content_warning: "Animation"
 
 - name: 'Olivia Liddell'
+  youtube: 'https://youtu.be/2cts3rEYhvg'
   keynote: false
   bio_image: 'speakers/olivia-liddell.jpg'
   bio_image2: 'speakers/olivia-liddell.jpg'
@@ -81,6 +87,7 @@
   abstract: "Have you ever been too afraid to try for an opportunity because you feared that you wouldn’t get it? In this talk, you’ll learn more about some of the causes of fear of failure, along with clear strategies that you can use to overcome it and advance within your tech career."
 
 - name: 'Peter Müller'
+  youtube: 'https://youtu.be/eEO77MiGOCc'
   keynote: false
   bio_image: 'speakers/peter.jpg'
   bio_image2: 'speakers/peter.jpg'
@@ -94,6 +101,7 @@
   abstract: "Web fonts and web performance are diametrical opposites. Your time to meaningful paint suffers from inefficient loading. Web fonts are also empowering your designers to improve legibility and keep brand consistency. Choose one: Performance or design? I'm here to tell you how you can have both"
 
 - name: 'Rachel Andrew'
+  youtube: 'https://youtu.be/xL9GAiDPboE'
   keynote: false
   bio_image: 'speakers/rachelandrew.jpg'
   bio_image2: 'speakers/rachelandrew.jpg'
@@ -107,6 +115,7 @@
   abstract: ""
 
 - name: 'Lea Verou'
+  youtube: 'https://youtu.be/8BXQ3zCihYM'
   keynote: false
   bio_image: 'speakers/lea.jpg'
   bio_image2: 'speakers/lea.jpg'
@@ -121,6 +130,7 @@
   abstract: 'CSS Secrets was a series of talks that were loved by audiences all around the globe and led to Lea’s bestselling book “<a href="https://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635?tag=leaverou-20" target="_blank">CSS Secrets</a>”. The premise is simple: Ten surprising yet practical things you didn’t know you could do in CSS, live-coded in Lea’s trademark interactive presentation style. This third installment of the series will include new juicy secrets related to CSS Variables, SVG, grid layout, flexbox, variable fonts, among other things. Prepare to be inspired again as Lea debuts ten all-new feats of advanced CSS wizardry, which will help you understand CSS at a much deeper level.'
 
 - name: 'Sareh Heidari'
+  youtube: 'https://youtu.be/1SvYkwlcHE4'
   keynote: false
   bio_image: 'speakers/sareh.jpg'
   bio_image2: 'speakers/sareh.jpg'
@@ -129,11 +139,12 @@
   image2: 'speakers/sareh.jpg'
   twitter: '@sareh88'
   website:
-  title:
+  title: "Quick tips for performant websites"
   bio: "Sareh is a web developer at BBC News. She cares about web accessibility,  performance and their impact on the user experience. She loves that she gets to think about these things as a full-time job. 😁 <br/><br/>Sareh enjoys practicing traditional calligraphy ✍️, reading speculative fiction 📚 and walking round the streets of London, where she lives."
   abstract: ""
 
 - name: 'Steven Roberts'
+  youtube: 'https://youtu.be/6ce04yihPbE'
   keynote: false
   bio_image: 'speakers/steven-roberts.jpg'
   bio_image2: 'speakers/steven-roberts.jpg'
